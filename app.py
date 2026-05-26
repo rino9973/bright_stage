@@ -48,17 +48,19 @@ if st.session_state.page == 'home':
     st.divider()
     st.subheader("復習")
     
-    # ★間違えた問題ボタン（0問の時は無効化される）
     mistakes_count = len(st.session_state.mistakes)
+
+    # ★ここを追加：間違えた問題がある場合、そのIDを「問題〇, 問題〇」の形で表示する
+    if mistakes_count > 0:
+        # リストの内包表記という技を使って、IDを取り出して文字を作ります
+        mistake_ids = [f"問題{q['id']}" for q in st.session_state.mistakes]
+        # st.infoを使って、青い枠でわかりやすく表示します
+        st.info(f"📝 現在間違えている問題: {', '.join(mistake_ids)}")
+    
+    # ★間違えた問題ボタン
     if st.button(f"間違えた問題をやり直す ({mistakes_count}問)", disabled=(mistakes_count == 0)):
         # 間違えた問題のリストをクイズのキューにセット
         st.session_state.questions = st.session_state.mistakes.copy()
-        random.shuffle(st.session_state.questions)
-        st.session_state.current_index = 0
-        # やり直しを開始したら、一度記録をリセットする（再度間違えたらまた追加される）
-        st.session_state.mistakes = []
-        st.session_state.page = 'quiz'
-        st.rerun()
 
 # 【2. クイズ画面】
 elif st.session_state.page == 'quiz':
@@ -74,7 +76,8 @@ elif st.session_state.page == 'quiz':
         q = st.session_state.questions[current]
         
         st.progress((current) / total)
-        st.write(f"**第 {current + 1} 問 / {total} 問**")
+        # ★右側に「（問題〇）」と追加で表示するようにしました
+        st.write(f"**第 {current + 1} 問 / {total} 問** （問題{q['id']}）")
         st.subheader(q['question'])
 
         # ★判定処理（正解・不正解時の動きをまとめました）

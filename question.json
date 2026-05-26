@@ -1,0 +1,3157 @@
+[
+  {
+    "id": 1,
+    "type": "基礎",
+    "question": "I usually (   ) straight home after work these days.",
+    "options": ["have gone", "went", "had gone", "go"],
+    "answer": "go"
+  },
+  {
+    "id": 2,
+    "type": "基礎",
+    "question": "He (   ) about the noise to the police yesterday.",
+    "options": ["complaint", "complained", "complains", "complaining"],
+    "answer": "complained"
+  },
+  {
+    "id": 3,
+    "type": "基礎",
+    "question": "Do you really think the number (   ) to about 500 by the end of this year?",
+    "options": ["grows", "has grown", "grew", "will grow"],
+    "answer": "will grow"
+  },
+  {
+    "id": 4,
+    "type": "基礎",
+    "question": "She usually listens to the radio, but at the present moment she (   ) television.",
+    "options": ["watches", "is watching", "has watched", "had been watching"],
+    "answer": "is watching"
+  },
+  {
+    "id": 5,
+    "type": "基礎",
+    "question": "We are (   ) a new office in the central section of Singapore in two months.",
+    "options": ["started", "opening", "open", "on start"],
+    "answer": "opening"
+  },
+  {
+    "id": 6,
+    "type": "基礎",
+    "question": "I didn't hear him say anything because I (   ) to music.",
+    "options": ["had listened", "have listened", "listened", "was listening"],
+    "answer": "was listening"
+  },
+  {
+    "id": 7,
+    "type": "基礎",
+    "question": "When Ken comes home from school this afternoon, his mother (   ) cooking roast chicken.",
+    "options": ["will be", "would be", "has been", "had been"],
+    "answer": "will be"
+  },
+  {
+    "id": 8,
+    "type": "基礎",
+    "question": "Actually, he is rather conservative. That is why he (   ) to that political party.",
+    "options": ["was belonging", "was belonged", "is belonging", "belongs"],
+    "answer": "belongs"
+  },
+  {
+    "id": 9,
+    "type": "基礎",
+    "question": "A : \"Are Mary and Tom still living in Tokyo?\"\nB : \"No. They (   ) to Beijing.\"",
+    "options": ["are just moved", "had just moved", "have just moved", "will just move"],
+    "answer": "have just moved"
+  },
+  {
+    "id": 10,
+    "type": "基礎",
+    "question": "A : What's Danny's brother like?\nB : I don't know. I (   ) him before.",
+    "options": ["don't meet", "didn't meet", "won't meet", "have never met"],
+    "answer": "have never met"
+  },
+  {
+    "id": 11,
+    "type": "基礎",
+    "question": "We had arranged to meet at seven, but Taro was so late that, when he finally arrived, my friends and I (   ) dessert.",
+    "options": ["already have had", "already to have", "be having already", "had already had"],
+    "answer": "had already had"
+  },
+  {
+    "id": 12,
+    "type": "基礎",
+    "question": "As soon as I shut the door, I realized I (   ) the key inside.",
+    "options": ["was left", "had left", "would leave", "have left"],
+    "answer": "had left"
+  },
+  {
+    "id": 13,
+    "type": "基礎",
+    "question": "The government report on science and technology released last month describes how technological progress (   ) people's lives by 2035.",
+    "options": ["changes", "is changing", "will be changed", "will have changed"],
+    "answer": "will have changed"
+  },
+  {
+    "id": 14,
+    "type": "基礎",
+    "question": "If I go to Hawaii again, I (   ) there ten times.",
+    "options": ["would have visited", "have visited", "had visited", "will have visited"],
+    "answer": "will have visited"
+  },
+  {
+    "id": 15,
+    "type": "基礎",
+    "question": "People (   ) peace for ten years since the end of the regime.",
+    "options": ["are enjoying", "enjoy", "will have enjoyed", "have been enjoying"],
+    "answer": "have been enjoying"
+  },
+  {
+    "id": 16,
+    "type": "基礎",
+    "question": "Mr. Brown (   ) for nearly thirty minutes when his client arrived.",
+    "options": ["will have waited", "has been waiting", "has waited", "had been waiting"],
+    "answer": "had been waiting"
+  },
+  {
+    "id": 17,
+    "type": "基礎",
+    "question": "By the end of this year, I (   ) for this bank for eight years.",
+    "options": ["had been working", "had worked", "will have been working", "will work"],
+    "answer": "will have been working"
+  },
+  {
+    "id": 18,
+    "type": "基礎",
+    "question": "Oh, my train's arriving. I'll call you later when (   ) more time.",
+    "options": ["I had", "I have", "I'll have", "I'm having"],
+    "answer": "I have"
+  },
+  {
+    "id": 19,
+    "type": "基礎",
+    "question": "I can't tell if it (   ) tomorrow.",
+    "options": ["is raining", "has been raining", "rains", "will rain"],
+    "answer": "will rain"
+  },
+  {
+    "id": 20,
+    "type": "基礎",
+    "question": "It (   ) ten years since the two companies merged.",
+    "options": ["has been", "has passed", "is passed", "passed"],
+    "answer": "has been"
+  },
+  {
+    "id": 21,
+    "type": "基礎",
+    "question": "Look at those black clouds up there. It's (   ) rain.",
+    "options": ["will", "going to", "coming to", "to be"],
+    "answer": "going to"
+  },
+  {
+    "id": 22,
+    "type": "応用",
+    "question": "私の娘がペットとして飼っているウサギは、病気のせいで死にかけている。\nThe rabbit my daughter has as a pet _________ because of illness.",
+    "answer": "is dying"
+  },
+  {
+    "id": 23,
+    "type": "応用",
+    "question": "来年で、ジョージは10年間、私の上司でいることになります。\nNext year, George (   )(   )(   ) my boss for ten years.",
+    "answer": "will have been"
+  },
+  {
+  "id": 24,
+  "type": "誤文訂正",
+  "question": "When we ①got to the restaurant, Midori ②complained that she ③waiting for us for 30 minutes. However, it turns out she had arrived too earily by mistake.",
+  "answer": {
+    "wrong_number": "3",
+    "correction": "had been waiting"
+  }
+ },
+  {
+    "id": 25,
+    "type": "応用",
+    "question": "英訳しなさい：大学を卒業し、この会社で働き始めてから20年になる。",
+    "answer": "It has been 20 years since I started working for this company after graduating from college."
+  },
+  {
+    "id": 26,
+    "type": "応用",
+    "question": "和訳しなさい：I consider myself a good citizen and I think it's important to know what's going on across the nation. The problems of the people in another area today may be the same ones we'll be facing here in New York next year.",
+    "answer": "私は自分のことを善良な市民だと考え、国中で何が起凝っているかを知ることは大事だと考えている。別の地域に暮らす人々の今日の問題は、ここニューヨークで来年私たちが直面している問題と同じ問題かもしれない。"
+  },
+{
+    "id": 27,
+    "type": "基礎",
+    "question": "A : I tried to call Takeshi yesterday, but my call couldn't go through.\nB : He turned his phone off as he didn't want to (   ).",
+    "options": ["disturb", "be disturbed", "disturbing", "have disturbed"],
+    "answer": "be disturbed"
+  },
+  {
+    "id": 28,
+    "type": "基礎",
+    "question": "A lot of food is thrown away because (   ) in time.",
+    "options": ["it does not consume", "it has not consumed", "it is not consumed", "it is not consuming"],
+    "answer": "it is not consumed"
+  },
+  {
+    "id": 29,
+    "type": "基礎",
+    "question": "The other day he (   ) in French by a foreigner.",
+    "options": ["was spoken to", "spoke to", "was spoken", "spoken up"],
+    "answer": "was spoken to"
+  },
+  {
+    "id": 30,
+    "type": "基礎",
+    "question": "Almost a million copies of the book (   ) so far.",
+    "options": ["has been sold", "has sold", "have been sold", "are being sold"],
+    "answer": "have been sold"
+  },
+  {
+    "id": 31,
+    "type": "基礎",
+    "question": "The problem should (   ) immediately.",
+    "options": ["be solved", "be solving", "solve", "to solve"],
+    "answer": "be solved"
+  },
+  {
+    "id": 32,
+    "type": "基礎",
+    "question": "Improvements are still (   ) in survey methods and practices.",
+    "options": ["at making", "being made", "have made", "to made"],
+    "answer": "being made"
+  },
+  {
+    "id": 33,
+    "type": "基礎",
+    "question": "More and more tourists from abroad are visiting Japan. Many of them are (   ) Japanese manga.",
+    "options": ["interested in", "interesting of", "interesting to", "interested to"],
+    "answer": "interested in"
+  },
+  {
+    "id": 34,
+    "type": "基礎",
+    "question": "I was (   ) in a sudden shower on my way to the station.",
+    "options": ["caught", "fixed", "rained", "set"],
+    "answer": "caught"
+  },
+  {
+    "id": 35,
+    "type": "基礎",
+    "question": "Mt. Fuji is (   ) as \"Fuji-san\" in Japanese.",
+    "options": ["called", "known", "named", "referred"],
+    "answer": "known"
+  },
+  {
+    "id": 36,
+    "type": "基礎",
+    "question": "He was seen (   ) out of the room.",
+    "options": ["go", "gone", "having gone", "to go"],
+    "answer": "to go"
+  },
+  {
+    "id": 37,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nA majority of committee members ①were ②in favor of the proposal at the beginning, but now so many people are ③opposed to it that it is ④sure to turn down.",
+    "answer": "④をbe turned downに直す"
+  },
+  {
+    "id": 38,
+    "type": "応用",
+    "question": "並べ替えなさい：\nMany more ( are / being / done / studies / the cause / to find ) and treatments for this disease.",
+    "answer": "studies are being done to find the cause"
+  },
+  {
+    "id": 39,
+    "type": "応用",
+    "question": "並べ替えなさい：西サハラの自然の資源は、領土の将来が決まるまでは利用するべきではない。\nWestern Sahara's ( be / natural / not / should / until / utilized / wealth ) the territory's future is decided.",
+    "answer": "natural wealth should not be utilized until"
+  },
+  {
+    "id": 40,
+    "type": "応用",
+    "question": "英訳しなさい：私は駅に行く途中、外国人に話しかけられた。",
+    "answer": "I was spoken to by a foreigner on my way to the station."
+  },
+  {
+    "id": 41,
+    "type": "応用",
+    "question": "和訳しなさい：\nDuring the breeding season, each pair of birds claims and defends a nesting ground or territory. Those are established by fighting and displaying, but once established, territorial boundaries are respected by neighbors.",
+    "answer": "繁殖期の間、それぞれの鳥のつがいは巣作りの場所や縄張りを主張し守る。それらは戦いや誇示行動によって確立されるが、いったん確立されると、縄張りの境界は隣の鳥たちによって尊重される。"
+  },
+  {
+    "id": 42,
+    "type": "基礎",
+    "question": "You (   ) not believe this, but I plan to become a professional jazz musician.",
+    "options": ["can", "may", "must", "should"],
+    "answer": "may"
+  },
+  {
+    "id": 43,
+    "type": "基礎",
+    "question": "He (   ) be in because I can hear his radio.",
+    "options": ["shall", "must have", "has", "must"],
+    "answer": "must"
+  },
+  {
+    "id": 44,
+    "type": "基礎",
+    "question": "You (   ) be serious. You must be joking.",
+    "options": ["aren't", "can't", "weren't", "didn't"],
+    "answer": "can't"
+  },
+  {
+    "id": 45,
+    "type": "基礎",
+    "question": "話してもいいですか。\n(   ) I speak to you?",
+    "options": ["Will", "May", "Shall", "Must"],
+    "answer": "May"
+  },
+  {
+    "id": 46,
+    "type": "基礎",
+    "question": "If you like, you (   ) use this computer for your next presentation.",
+    "options": ["ought to", "should", "must", "can"],
+    "answer": "can"
+  },
+  {
+    "id": 47,
+    "type": "基礎",
+    "question": "You (   ) eat or drink in the theater. It's not allowed.",
+    "options": ["must", "have to", "must not", "don't have to"],
+    "answer": "must not"
+  },
+  {
+    "id": 48,
+    "type": "基礎",
+    "question": "We (   ) stay late at the office tomorrow. We are working on a big project at the moment.",
+    "options": ["won't", "shouldn't", "have to", "can't"],
+    "answer": "have to"
+  },
+  {
+    "id": 49,
+    "type": "基礎",
+    "question": "\"Do you have to attend the meeting this afternoon?\"\n\"(   ), but I'd like to know more about the new committee. So I will.\"",
+    "options": ["I think so", "I'm not", "I don't have to", "I hope so."],
+    "answer": "I don't have to"
+  },
+  {
+    "id": 50,
+    "type": "基礎",
+    "question": "You have (   ) to let me have a glance at it.",
+    "options": ["hardly", "never", "nothing", "only"],
+    "answer": "only"
+  },
+  {
+    "id": 51,
+    "type": "基礎",
+    "question": "Oh, it's already eleven o'clock? (   ) go home now.",
+    "options": ["I've gotten", "I've got to", "I had had to", "I'm having to"],
+    "answer": "I've got to"
+  },
+  {
+    "id": 52,
+    "type": "基礎",
+    "question": "It's late in the evening. I think we (   ) go home now.",
+    "options": ["ought", "had to", "should", "would"],
+    "answer": "should"
+  },
+  {
+    "id": 53,
+    "type": "基礎",
+    "question": "You (   ) tell her if you don't want to.",
+    "options": ["need not to", "have not to", "need not", "don't have"],
+    "answer": "need not"
+  },
+  {
+    "id": 54,
+    "type": "基礎",
+    "question": "A : How (   ) you insult me!\nB : Sorry, I didn't mean to. Would you forgive me?",
+    "options": ["dare", "shall", "may", "need"],
+    "answer": "dare"
+  },
+  {
+    "id": 55,
+    "type": "基礎",
+    "question": "We all tried to push the truck, but it (   ) move. Finally, we called the car service center.",
+    "options": ["will", "would", "won't", "wouldn't"],
+    "answer": "wouldn't"
+  },
+  {
+    "id": 56,
+    "type": "基礎",
+    "question": "When we were children, we (   ) go skating every winter.",
+    "options": ["liked", "would", "might", "wanted"],
+    "answer": "would"
+  },
+  {
+    "id": 57,
+    "type": "基礎",
+    "question": "Before he got sick, he (   ) to practice every day.",
+    "options": ["likes", "used", "was allowing", "would"],
+    "answer": "used"
+  },
+  {
+    "id": 58,
+    "type": "基礎",
+    "question": "My brother said he (   ) to go to Paris, but he doesn't have enough money.",
+    "options": ["would like", "will like", "must have liked", "will be liked"],
+    "answer": "would like"
+  },
+  {
+    "id": 59,
+    "type": "基礎",
+    "question": "I would rather (   ) on Sunday than on Saturday.",
+    "options": ["come", "came", "comes", "coming"],
+    "answer": "come"
+  },
+  {
+    "id": 60,
+    "type": "基礎",
+    "question": "I'd rather (   ) out today.",
+    "options": ["don't go", "not go", "not going", "not to go"],
+    "answer": "not go"
+  },
+  {
+    "id": 61,
+    "type": "基礎",
+    "question": "Oh dear. It's already five o'clock and I'm late. I (   ) leave now.",
+    "options": ["could", "had better", "ought", "should to"],
+    "answer": "had better"
+  },
+  {
+    "id": 62,
+    "type": "基礎",
+    "question": "A : The window was unlocked and there is mud on the floor.\nB : So the thief (   ) come into the apartment that way.",
+    "options": ["may", "must have", "ought to", "should"],
+    "answer": "must have"
+  },
+  {
+    "id": 63,
+    "type": "基礎",
+    "question": "He (   ) have got lost on the way. He's come here by himself so many times.",
+    "options": ["must", "will", "can't", "didn't"],
+    "answer": "can't"
+  },
+  {
+    "id": 64,
+    "type": "基礎",
+    "question": "Taro (   ) there yesterday, but nobody saw him.",
+    "options": ["might be", "might have been", "must have to be", "should be"],
+    "answer": "might have been"
+  },
+  {
+    "id": 65,
+    "type": "基礎",
+    "question": "I'm sorry that I couldn't follow the very last part of her speech. I (   ) more carefully.",
+    "options": ["would be listened", "was listened", "am to be listened", "should have listened"],
+    "answer": "should have listened"
+  },
+  {
+    "id": 66,
+    "type": "基礎",
+    "question": "During the 1970s, many students demanded that student committees (   ) the power to make decisions about school rules.",
+    "options": ["be given", "will give by", "to give it", "giving to"],
+    "answer": "be given"
+  },
+  {
+    "id": 67,
+    "type": "基礎",
+    "question": "You can't be (   ) cars in crossing this street.",
+    "options": ["careful so that", "so careful that", "so careful with", "too careful of"],
+    "answer": "too careful of"
+  },
+  {
+    "id": 68,
+    "type": "基礎",
+    "question": "She tried to be serious but she couldn't help (   ).",
+    "options": ["that she laughed", "to laugh", "to have laughed", "laughing"],
+    "answer": "laughing"
+  },
+  {
+    "id": 69,
+    "type": "基礎",
+    "question": "It takes so long by train. You (   ) as well fly.",
+    "options": ["should", "might", "can", "would"],
+    "answer": "might"
+  },
+  {
+    "id": 70,
+    "type": "基礎",
+    "question": "There was an important entrance examination last month, and I (   ) it.",
+    "options": ["cannot pass", "could pass", "had passed", "was able to pass"],
+    "answer": "was able to pass"
+  },
+  {
+    "id": 71,
+    "type": "応用",
+    "question": "A : I can't find my passport anywhere. It must have been stolen.\nB : You had (   ) do something about it right now.",
+    "answer": "better"
+  },
+  {
+    "id": 72,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nI ①may ②so well give ③up the attempt ④at once.",
+    "answer": "②をasに直す"
+  },
+  {
+    "id": 73,
+    "type": "応用",
+    "question": "並べ替えなさい：\nMary ( have / very proud / must / of / been / her son ).",
+    "answer": "must have been very proud of her son"
+  },
+  {
+    "id": 74,
+    "type": "応用",
+    "question": "英訳しなさい：\n車を運転するときは、いくら注意してもしすぎることはありません。",
+    "answer": "You cannot be too careful when driving a car."
+  },
+  {
+    "id": 75,
+    "type": "応用",
+    "question": "和訳しなさい：\nAn elephant should run faster than a horse — at least in theory. That's because big creatures have more of the type of muscle cells used for acceleration. Yet mid-sized animals are the fastest on Earth.",
+    "answer": "象は馬よりも速く走るはずである、少なくとも理論上は。それは、大きな生き物ほど加速に使われる種類の筋肉細胞をより多く持っているからである。しかし、地球上で最も速いのは中型の動物である。"
+  },
+  {
+    "id": 76,
+    "type": "基礎",
+    "question": "The president decided (   ) of the new product.",
+    "options": ["putting off the promotion", "having put off the promotion", "to put off the promotion", "to have put off the promotion"],
+    "answer": "to put off the promotion"
+  },
+  {
+    "id": 77,
+    "type": "基礎",
+    "question": "Real wealth is (   ) avoid doing what one would rather not do.",
+    "options": ["being", "being able as to", "to be able to", "to find yourself able to"],
+    "answer": "to be able to"
+  },
+  {
+    "id": 78,
+    "type": "基礎",
+    "question": "It is difficult for you (   ) the English examination.",
+    "options": ["is passing", "to passed", "to pass", "pass"],
+    "answer": "to pass"
+  },
+  {
+    "id": 79,
+    "type": "基礎",
+    "question": "She (   ) what I said.",
+    "options": ["found impossible to believe", "found it impossible for believing", "found it impossible to believe", "found impossible believing"],
+    "answer": "found it impossible to believe"
+  },
+  {
+    "id": 80,
+    "type": "基礎",
+    "question": "There is little time (   ) this assignment.",
+    "options": ["to finish", "finish", "to be finished", "finishing"],
+    "answer": "to finish"
+  },
+  {
+    "id": 81,
+    "type": "基礎",
+    "question": "Who was the first person (   ) the South Pole?",
+    "options": ["reach", "reached", "to reach", "who reaches"],
+    "answer": "to reach"
+  },
+  {
+    "id": 82,
+    "type": "基礎",
+    "question": "It is freezing outside. I felt very cold walking home. I want to have (   ).",
+    "options": ["hot something to drink", "drinking something hot", "hot drinking to something", "something hot to drink"],
+    "answer": "something hot to drink"
+  },
+  {
+    "id": 83,
+    "type": "基礎",
+    "question": "We have a lot of problems (   ).",
+    "options": ["to deal", "for dealing", "to deal with", "to be dealt"],
+    "answer": "to deal with"
+  },
+  {
+    "id": 84,
+    "type": "基礎",
+    "question": "A : Could you tell me (   ) get to the closest post office?\nB : Sure. Go straight down this street and you'll see it on the right, across from the bank.",
+    "options": ["can I", "how to", "the way", "where is"],
+    "answer": "how to"
+  },
+  {
+    "id": 85,
+    "type": "基礎",
+    "question": "Harold went to the biggest bookstore in the town (   ) gifts for his friend.",
+    "options": ["to getting", "for getting", "to get", "for to get"],
+    "answer": "to get"
+  },
+  {
+    "id": 86,
+    "type": "基礎",
+    "question": "He had to attend night school (   ) improve his computer skills.",
+    "options": ["in doing so", "for", "in order to", "as"],
+    "answer": "in order to"
+  },
+  {
+    "id": 87,
+    "type": "基礎",
+    "question": "You should write carefully (   ) as not to make mistakes.",
+    "options": ["enough", "so", "in", "for"],
+    "answer": "so"
+  },
+  {
+    "id": 88,
+    "type": "基礎",
+    "question": "She will be glad (   ) that he had arrived safely.",
+    "options": ["to know", "know", "knowing", "to have known"],
+    "answer": "to know"
+  },
+  {
+    "id": 89,
+    "type": "基礎",
+    "question": "His grandfather lived (   ) ninety-two and was the head of the company for many years.",
+    "options": ["being", "to be", "for being", "till he would be"],
+    "answer": "to be"
+  },
+  {
+    "id": 90,
+    "type": "基礎",
+    "question": "She is (   ) buy everything.",
+    "options": ["enough rich to", "enough to rich", "rich enough to", "rich to enough"],
+    "answer": "rich enough to"
+  },
+  {
+    "id": 91,
+    "type": "基礎",
+    "question": "I came all the way from Hokkaido to see my aunt, (   ) to find that she had moved.",
+    "options": ["about", "as", "enough", "only"],
+    "answer": "only"
+  },
+  {
+    "id": 92,
+    "type": "基礎",
+    "question": "I'll try (   ) too much about the rankings.",
+    "options": ["not to thinking", "to not thinking", "not think", "not to think"],
+    "answer": "not to think"
+  },
+  {
+    "id": 93,
+    "type": "基礎",
+    "question": "They don't seem (   ) of the importance of the problem five years ago.",
+    "options": ["being aware", "having been aware", "to being aware", "to have been aware"],
+    "answer": "to have been aware"
+  },
+  {
+    "id": 94,
+    "type": "基礎",
+    "question": "The problem was (   ) complex for him to handle alone.",
+    "options": ["so", "much", "as", "too"],
+    "answer": "too"
+  },
+  {
+    "id": 95,
+    "type": "基礎",
+    "question": "I know I should go to the dentist's, but I just don't (   ).",
+    "options": ["want", "want either", "want there", "want to"],
+    "answer": "want to"
+  },
+  {
+    "id": 96,
+    "type": "基礎",
+    "question": "After a sleepless night, I suffered from headaches, (   ) tiredness.",
+    "options": ["at the cost of", "for the purpose of", "in spite of", "to say nothing of"],
+    "answer": "to say nothing of"
+  },
+  {
+    "id": 97,
+    "type": "基礎",
+    "question": "To say (   ), her knowledge of contemporary fiction surpasses that of her teacher.",
+    "options": ["a few", "nothing", "seldom", "the least"],
+    "answer": "the least"
+  },
+  {
+    "id": 98,
+    "type": "基礎",
+    "question": "On the last day of the festival this year, a violin concert (   ) held at this hall.",
+    "options": ["has been", "is to be", "was to", "had to"],
+    "answer": "is to be"
+  },
+  {
+    "id": 99,
+    "type": "応用",
+    "question": "It goes without saying that health is above wealth.\n= (   )(   )(   ), health is above wealth.",
+    "answer": "Needless to say"
+  },
+  {
+    "id": 100,
+    "type": "応用",
+    "question": "I think Don is very sensitive and can understand your feelings.\n= I think Don is sensitive (   )(   ) understand your feelings.",
+    "answer": "enough to"
+  },
+  {
+    "id": 101,
+    "type": "応用",
+    "question": "並べ替えなさい：\nACME Corporation has provided a lot of jobs to people in our community. It was ( local council / of our / that company / clever / to / bring ) here.",
+    "answer": "clever of our local council to bring that company"
+  },
+  {
+    "id": 102,
+    "type": "応用",
+    "question": "英訳しなさい：彼女はあのような高価な車を買えるほど金持ちだ。",
+    "answer": "She is rich enough to buy such an expensive car."
+  },
+  {
+    "id": 103,
+    "type": "応用",
+    "question": "和訳しなさい：\nIt's important for our children to learn to be responsible and to participate in the tasks of daily life in accordance with their age and abilities.",
+    "answer": "子供たちが、自分たちの年齢や能力に応じて、責任を果たすことや日常生活の仕事に参加することを学ぶのは重要である。"
+  },
+  {
+    "id": 104,
+    "type": "基礎",
+    "question": "(   ) breakfast at the university cafeteria is advertised as a good way for college students to start the day with a well-balanced meal.",
+    "options": ["Being eaten", "Having eaten", "Eating", "Eat"],
+    "answer": "Eating"
+  },
+  {
+    "id": 105,
+    "type": "基礎",
+    "question": "His ear trouble made (   ) very difficult.",
+    "options": ["be hearing", "having heard", "hear", "hearing"],
+    "answer": "hearing"
+  },
+  {
+    "id": 106,
+    "type": "基礎",
+    "question": "He is fond of (   ) soccer.",
+    "options": ["to play", "play", "playing", "played"],
+    "answer": "playing"
+  },
+  {
+    "id": 107,
+    "type": "基礎",
+    "question": "Many people say that there is no chance (   ) any lottery contests, but my mother won a brand new car today!",
+    "options": ["from winning", "of winning", "to be won", "for being won"],
+    "answer": "of winning"
+  },
+  {
+    "id": 108,
+    "type": "基礎",
+    "question": "I am ashamed of (   ) the answer to the question.",
+    "options": ["not being known", "not being knowing", "being not known", "not knowing"],
+    "answer": "not knowing"
+  },
+  {
+    "id": 109,
+    "type": "基礎",
+    "question": "It is natural for workers to complain about their salary (   ).",
+    "options": ["be so cheap", "be so low", "being too cheap", "being too low"],
+    "answer": "being too low"
+  },
+  {
+    "id": 110,
+    "type": "基礎",
+    "question": "The student tried to get into the classroom without (   ) by the teacher.",
+    "options": ["being noticed", "to have noticed", "be noticed", "noticed"],
+    "answer": "being noticed"
+  },
+  {
+    "id": 111,
+    "type": "基礎",
+    "question": "As a result of (   ) the dangerous waste properly, the hospital will need to pay a large fine.",
+    "options": ["had not managed", "not being managed", "not having managed", "not to have managed"],
+    "answer": "not having managed"
+  },
+  {
+    "id": 112,
+    "type": "基礎",
+    "question": "A : Will you be at the meeting tomorrow?\nB : Yes, I will. I look forward (   ) you again there.",
+    "options": ["see", "to see", "to seeing", "will see"],
+    "answer": "to seeing"
+  },
+  {
+    "id": 113,
+    "type": "基礎",
+    "question": "She is not used to (   ) formal letters.",
+    "options": ["write", "writing", "writes", "written"],
+    "answer": "writing"
+  },
+  {
+    "id": 114,
+    "type": "基礎",
+    "question": "Though she is a shy student, she seems to be getting used (   ) in class.",
+    "options": ["speak", "to speak", "to speaking", "spoken to"],
+    "answer": "to speaking"
+  },
+  {
+    "id": 115,
+    "type": "基礎",
+    "question": "What do you say to (   ) a movie tonight?",
+    "options": ["watch", "watching", "watched", "be watched"],
+    "answer": "watching"
+  },
+  {
+    "id": 116,
+    "type": "基礎",
+    "question": "There is no use (   ) angry about it.",
+    "options": ["to getting", "getting", "to get", "to be gotten"],
+    "answer": "getting"
+  },
+  {
+    "id": 117,
+    "type": "基礎",
+    "question": "I have (   ) on studying because I want to watch my favorite movies on TV.",
+    "options": ["difficulty concentrating", "difficulty to concentrate", "difficult concentrating", "difficult to concentrate"],
+    "answer": "difficulty concentrating"
+  },
+  {
+    "id": 118,
+    "type": "基礎",
+    "question": "There is (   ) what will happen tomorrow.",
+    "options": ["no told", "not to tell", "not telling", "no telling"],
+    "answer": "no telling"
+  },
+  {
+    "id": 119,
+    "type": "基礎",
+    "question": "She did not feel (   ) attending the debate.",
+    "options": ["for", "about", "like", "difficult"],
+    "answer": "like"
+  },
+  {
+    "id": 120,
+    "type": "基礎",
+    "question": "As soon as I arrived at the station, I was able to find him.\n= (   ) at the station, I was able to find him.",
+    "options": ["To arriving", "On arriving", "With arriving", "At arriving"],
+    "answer": "On arriving"
+  },
+  {
+    "id": 121,
+    "type": "基礎",
+    "question": "It (   ) without saying that anyone riding a motorcycle should wear a helmet.",
+    "options": ["calls", "goes", "takes", "moves"],
+    "answer": "goes"
+  },
+  {
+    "id": 122,
+    "type": "基礎",
+    "question": "This bicycle needs (   ).",
+    "options": ["fixing", "being fixed", "of fixing", "of being fixed"],
+    "answer": "fixing"
+  },
+  {
+    "id": 123,
+    "type": "基礎",
+    "question": "The TV program is worth (   ).",
+    "options": ["watching", "being watched", "of watching", "to watch"],
+    "answer": "watching"
+  },
+  {
+    "id": 124,
+    "type": "応用",
+    "question": "並べ替えなさい：\nLanguage is not only a way of transmitting information but also ( a / establishing / means / of / relationships / social ).",
+    "answer": "a means of establishing social relationships"
+  },
+  {
+    "id": 125,
+    "type": "応用",
+    "question": "並べ替えなさい：1時間あれば、そんな仕事も難なく片付けられるよ。\nWe ( an / difficulty / finishing / have / hour / in / no / task / the / would ).",
+    "answer": "would have no difficulty in finishing the task in an hour"
+  },
+  {
+    "id": 126,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nPlease accept ①my apologies for ②not provided you ③with information about the ④change in schedule for yesterday's meeting.",
+    "answer": "②をnot providingに直す"
+  },
+  {
+    "id": 127,
+    "type": "応用",
+    "question": "英訳しなさい：\n多くの人が、そのサッカーの試合を見るのを楽しみにしているようだ。〈Many people で書き始める〉",
+    "answer": "Many people seem to be looking forward to seeing the soccer game."
+  },
+  {
+    "id": 128,
+    "type": "応用",
+    "question": "和訳しなさい：\nMost young people have difficulty contemplating their own old age or preparing for the discomfort and dependency that often accompany it.",
+    "answer": "たいていの若者は、自分自身の老後を熟考したり、老後にしばしば伴う不快感や依存に備えたりすることに困難を覚える。"
+  },
+  {
+    "id": 129,
+    "type": "基礎",
+    "question": "My bicycle is completely broken, but the shop (   ) new bicycles is closed today.",
+    "options": ["is selling", "selling", "sells", "sold"],
+    "answer": "selling"
+  },
+  {
+    "id": 130,
+    "type": "基礎",
+    "question": "A : Do you know that Chris had a skiing accident?\nB : Yes. He had a (   ) leg, but I think he'll be OK.",
+    "options": ["breaking", "broke", "broken", "break"],
+    "answer": "broken"
+  },
+  {
+    "id": 131,
+    "type": "基礎",
+    "question": "He remained (   ) on the bed.",
+    "options": ["lie", "lying", "to lie", "lain"],
+    "answer": "lying"
+  },
+  {
+    "id": 132,
+    "type": "基礎",
+    "question": "John sat (   ) by girls.",
+    "options": ["surround", "surrounded", "to surround", "surrounding"],
+    "answer": "surrounded"
+  },
+  {
+    "id": 133,
+    "type": "基礎",
+    "question": "Professor Smith, I'm very sorry to have kept you (   ) so long.",
+    "options": ["wait", "waited", "waiting", "to wait"],
+    "answer": "waiting"
+  },
+  {
+    "id": 134,
+    "type": "基礎",
+    "question": "I asked her to keep me (   ) of any new developments in the matter.",
+    "options": ["informing", "to inform", "informed", "information"],
+    "answer": "informed"
+  },
+  {
+    "id": 135,
+    "type": "基礎",
+    "question": "I couldn't make myself (   ) above the noise of the traffic.",
+    "options": ["hearing", "heard", "having heard", "to hear"],
+    "answer": "heard"
+  },
+  {
+    "id": 136,
+    "type": "基礎",
+    "question": "The children are outside. I can see them (   ) in the garden.",
+    "options": ["to play", "to be playing", "playing", "being played"],
+    "answer": "playing"
+  },
+  {
+    "id": 137,
+    "type": "基礎",
+    "question": "(   ) exactly the same job, he understands my situation better.",
+    "options": ["Doing", "Doing as", "For doing", "That we are doing"],
+    "answer": "Doing"
+  },
+  {
+    "id": 138,
+    "type": "基礎",
+    "question": "(   ) what to say, Travis remained silent all through the meeting.",
+    "options": ["Knowing not", "Knowing nothing", "Not knowing", "No knowing"],
+    "answer": "Not knowing"
+  },
+  {
+    "id": 139,
+    "type": "基礎",
+    "question": "Several former classmates gathered for lunch, (   ) their high school reunion the night before.",
+    "options": ["having attended", "attending", "having been attending", "being attended"],
+    "answer": "having attended"
+  },
+  {
+    "id": 140,
+    "type": "基礎",
+    "question": "(   ) from a distance, the rock looked like a human face.",
+    "options": ["Saw", "Seeing", "Seen", "To see"],
+    "answer": "Seen"
+  },
+  {
+    "id": 141,
+    "type": "基礎",
+    "question": "(   ) fine, I went out for a walk with my dog.",
+    "options": ["Because being", "Being", "It being", "It is"],
+    "answer": "It being"
+  },
+  {
+    "id": 142,
+    "type": "基礎",
+    "question": "(   ) being no public bus service, I had to run to catch the train as soon as possible.",
+    "options": ["They", "There", "It", "It is"],
+    "answer": "There"
+  },
+  {
+    "id": 143,
+    "type": "基礎",
+    "question": "All things (   ), she is the best candidate for the position.",
+    "options": ["considering", "considered", "to consider", "consider"],
+    "answer": "considered"
+  },
+  {
+    "id": 144,
+    "type": "基礎",
+    "question": "She said goodbye to her uncle with tears (   ) down her cheeks. She knew that she would never see him again.",
+    "options": ["run", "running", "ran", "to run"],
+    "answer": "running"
+  },
+  {
+    "id": 145,
+    "type": "基礎",
+    "question": "The basketball player made the free throw for the victory with only 2.2 seconds (   ) on the clock.",
+    "options": ["leave", "leaving", "left", "to leave"],
+    "answer": "left"
+  },
+  {
+    "id": 146,
+    "type": "応用",
+    "question": "並べ替えなさい：\n騒音に負けずに私の声を届かせようとしたが，だめだった。\nI tried in ( to / heard / above / make / vain / myself ) the noise.",
+    "hint": "in vain「無駄に終わる」、make oneself heard「自分の声を届かせる」を使います。",
+    "answer": "vain to make myself heard above"
+  },
+  {
+    "id": 147,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\n①Naming after the principal and most powerful of the Roman gods, Jupiter is ②twice as massive as all the ③rest of the planets in our system ④combined.",
+    "hint": "分詞構文の主語はJupiter（木星）です。「名付けられる」という受動の意味になる必要があります。",
+    "answer": "①をNamedに直す"
+  },
+  {
+    "id": 148,
+    "type": "応用",
+    "question": "書き換えなさい：\nSince there was no bus service, I had to walk three miles to the station.\n= There (   ) no bus service, I had to walk three miles to the station.",
+    "hint": "There構文の分詞構文を作ります。",
+    "answer": "being"
+  },
+  {
+    "id": 149,
+    "type": "応用",
+    "question": "英訳しなさい：\n何をしていいのかわからなかったので，彼らはそこに立っていた。",
+    "hint": "「～わからなかったので」を分詞構文（Not knowing...）で表現します。「そこに立つ」はstand there。",
+    "answer": "Not knowing what to do, they stood there."
+  },
+  {
+    "id": 150,
+    "type": "応用",
+    "question": "和訳しなさい：\nApproximately two-thirds of Americans believe that robots will perform most of the work currently done by human beings during the next 50 years.",
+    "hint": "done by human beings は前の the work を修飾する過去分詞句です。",
+    "answer": "およそ3分の2のアメリカ人は、現在人間によって行われている仕事の大半を、今後50年間にロボットが行うだろうと信じている。"
+  },
+  {
+    "id": 151,
+    "type": "基礎",
+    "question": "My girlfriend and I were born on the same day of the same year. She is (   ) I am.",
+    "options": ["as old as", "older than", "the oldest", "younger than"],
+    "answer": "as old as"
+  },
+  {
+    "id": 152,
+    "type": "基礎",
+    "question": "Osaka is not (   ) as Tokyo.",
+    "options": ["big", "the biggest", "as big", "bigger"],
+    "answer": "as big"
+  },
+  {
+    "id": 153,
+    "type": "基礎",
+    "question": "The manufacturer decided to hire (   ) temporary laborers as last year.",
+    "options": ["as many twice", "as twice as", "double as many", "twice as many"],
+    "answer": "twice as many"
+  },
+  {
+    "id": 154,
+    "type": "基礎",
+    "question": "This report has taken me (   ) as long to write as I had imagined.",
+    "options": ["third time", "three time", "three times", "times three"],
+    "answer": "three times"
+  },
+  {
+    "id": 155,
+    "type": "基礎",
+    "question": "Our new computer is about (   ) conventional ones.",
+    "options": ["half size", "half the size of", "half of the size of", "the half size"],
+    "answer": "half the size of"
+  },
+  {
+    "id": 156,
+    "type": "基礎",
+    "question": "A man's worth is to be estimated not so much by his social position (   ) by his character.",
+    "options": ["as", "as well", "rather", "than"],
+    "answer": "as"
+  },
+  {
+    "id": 157,
+    "type": "基礎",
+    "question": "A : How often do you visit your grandparents?\nB : I try to see them (   ) possible.",
+    "options": ["as often as", "as possible as", "as much as", "as well as"],
+    "answer": "as often as"
+  },
+  {
+    "id": 158,
+    "type": "基礎",
+    "question": "Read this book (   ).",
+    "options": ["as carefully as you can", "as carefully as you possible", "so carefully as possible", "so carefully as you can"],
+    "answer": "as carefully as you can"
+  },
+  {
+    "id": 159,
+    "type": "基礎",
+    "question": "It has been estimated that (   ) one hundred thousand people took part in the demonstration.",
+    "options": ["much", "as more as", "as many as", "more"],
+    "answer": "as many as"
+  },
+  {
+    "id": 160,
+    "type": "基礎",
+    "question": "Dull knives are actually more dangerous to use (   ).",
+    "options": ["as ones that are sharp", "as sharp ones", "than are sharp ones", "than sharp ones"],
+    "answer": "than sharp ones"
+  },
+  {
+    "id": 161,
+    "type": "基礎",
+    "question": "His account of the affair is (   ) we first thought.",
+    "options": ["reliable to than", "more reliable from than", "reliable than", "more reliable than"],
+    "answer": "more reliable than"
+  },
+  {
+    "id": 162,
+    "type": "基礎",
+    "question": "The subway is safe during the day but (   ) at night.",
+    "options": ["less safe", "less safer", "lesser safe", "more safer"],
+    "answer": "less safe"
+  },
+  {
+    "id": 163,
+    "type": "基礎",
+    "question": "The procedures for starting a new study in our institute are (   ) more complicated than in your organization.",
+    "options": ["any", "much", "too", "very"],
+    "answer": "much"
+  },
+  {
+    "id": 164,
+    "type": "基礎",
+    "question": "The more John heard about it, (   ) he liked it.",
+    "options": ["more", "much", "the less", "the much"],
+    "answer": "the less"
+  },
+  {
+    "id": 165,
+    "type": "基礎",
+    "question": "Mary is (   ) of the two girls I introduced to you yesterday.",
+    "options": ["taller", "the taller", "tallest", "tall"],
+    "answer": "the taller"
+  },
+  {
+    "id": 166,
+    "type": "基礎",
+    "question": "She began to study (   ) harder because she got a good mark.",
+    "options": ["all the", "none the", "all more", "none other"],
+    "answer": "all the"
+  },
+  {
+    "id": 167,
+    "type": "基礎",
+    "question": "She spent a month in the hospital, but she is (   ) the better for it.",
+    "options": ["even", "by far", "none", "still"],
+    "answer": "none"
+  },
+  {
+    "id": 168,
+    "type": "基礎",
+    "question": "Bill lives in a big house, but his room is (   ) bigger than mine.",
+    "options": ["less", "many", "more", "no"],
+    "answer": "no"
+  },
+  {
+    "id": 169,
+    "type": "基礎",
+    "question": "A bat is (   ) a bird than a rat is.",
+    "options": ["no more", "no less", "not more", "not less"],
+    "answer": "no more"
+  },
+  {
+    "id": 170,
+    "type": "基礎",
+    "question": "My students were few in number, (   ) four or five altogether.",
+    "options": ["as many as", "as little as", "no less than", "no more than"],
+    "answer": "no more than"
+  },
+  {
+    "id": 171,
+    "type": "基礎",
+    "question": "Chimpanzees and human beings were separated from their common ancestors (   ) six million years ago.",
+    "options": ["no less than", "no other than", "so old that", "so that"],
+    "answer": "no less than"
+  },
+  {
+    "id": 172,
+    "type": "基礎",
+    "question": "It now seems a fact (   ) just a possibility.",
+    "options": ["as much", "but never", "only", "rather than"],
+    "answer": "rather than"
+  },
+  {
+    "id": 173,
+    "type": "基礎",
+    "question": "He knew (   ) than to ask such a stupid question.",
+    "options": ["more", "sooner", "great", "better"],
+    "answer": "better"
+  },
+  {
+    "id": 174,
+    "type": "基礎",
+    "question": "I can't even sing easy children's songs well, (   ) jazz.",
+    "options": ["even harder", "in fact", "much less", "still more"],
+    "answer": "much less"
+  },
+  {
+    "id": 175,
+    "type": "基礎",
+    "question": "It is (   ) to fly to the moon.",
+    "options": ["not dream any longer", "no longer a dream", "no a longer dream", "not longer dream"],
+    "answer": "no longer a dream"
+  },
+  {
+    "id": 176,
+    "type": "基礎",
+    "question": "This car is superior in design (   ) other cars.",
+    "options": ["than", "to", "as", "for"],
+    "answer": "to"
+  },
+  {
+    "id": 177,
+    "type": "基礎",
+    "question": "He (   ) bread for breakfast.",
+    "options": ["prefers rice than", "prefers rice more than", "prefers rice for", "prefers rice to"],
+    "answer": "prefers rice to"
+  },
+  {
+    "id": 178,
+    "type": "基礎",
+    "question": "(   ) the islands that make up Japan, Honshu is the largest.",
+    "options": ["With", "Of", "In", "From"],
+    "answer": "Of"
+  },
+  {
+    "id": 179,
+    "type": "基礎",
+    "question": "The last question was (   ) one for the students to answer. Only Jennifer marked the correct answer.",
+    "options": ["easier", "less easy", "the easiest", "the least easy"],
+    "answer": "the least easy"
+  },
+  {
+    "id": 180,
+    "type": "基礎",
+    "question": "It is one of (   ) structured arguments.",
+    "options": ["the most properly", "the more proper", "much properly", "very proper"],
+    "answer": "the most properly"
+  },
+  {
+    "id": 181,
+    "type": "基礎",
+    "question": "The film I saw last night was the most exciting one I've (   ) seen.",
+    "options": ["always", "before", "ever", "not"],
+    "answer": "ever"
+  },
+  {
+    "id": 182,
+    "type": "基礎",
+    "question": "Is it true that Osaka is the third (   ) city in Japan?",
+    "options": ["as large as", "large", "larger than", "largest"],
+    "answer": "largest"
+  },
+  {
+    "id": 183,
+    "type": "基礎",
+    "question": "That is (   ) the worst movie I have ever seen.",
+    "options": ["much up", "more", "by far", "over again"],
+    "answer": "by far"
+  },
+  {
+    "id": 184,
+    "type": "基礎",
+    "question": "Professor Jones is stricter than (   ) teacher in our department.",
+    "options": ["any other", "other", "each other", "one another"],
+    "answer": "any other"
+  },
+  {
+    "id": 185,
+    "type": "基礎",
+    "question": "(   ) is so precious as time.",
+    "options": ["Anything", "Everything", "Nothing", "Something"],
+    "answer": "Nothing"
+  },
+  {
+    "id": 186,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nOne of the most influential ①building was Red House ②at Bexleyheath (1859), ③designed for Morris by his architect ④and friend Philip Webb (1831-1915).",
+    "answer": "①をbuildingsに直す"
+  },
+  {
+    "id": 187,
+    "type": "応用",
+    "question": "並べ替えなさい：\nこの庭には私たちの庭のおよそ2倍の樹木があります。\nThere ( ours, about, as, garden, trees, as, are, many, in, twice, this, in ).",
+    "answer": "are about twice as many trees in this garden as in ours"
+  },
+  {
+    "id": 188,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\n①Judging from what she ②has achieved ③so far, she is ④cleverer than wise.",
+    "answer": "④をmore cleverに直す"
+  },
+  {
+    "id": 189,
+    "type": "応用",
+    "question": "英訳しなさい：\nこの橋は，あの橋の1.5倍の長さがある。",
+    "answer": "This bridge is 1.5 times as long as that one."
+  },
+  {
+    "id": 190,
+    "type": "応用",
+    "question": "和訳しなさい：\nOur teens and twenties can be seen as a time when we want to learn as much about ourselves and the world as possible.",
+    "answer": "私たちの10代と20代は、自分自身と世界についてできる限り多くのことを学びたいと思う時期とみなすことができる。"
+  },
+  {
+    "id": 191,
+    "type": "基礎",
+    "question": "The class is for students (   ) wish to apply for the student exchange program.",
+    "options": ["whomever", "whoever", "whom", "who"],
+    "answer": "who"
+  },
+  {
+    "id": 192,
+    "type": "基礎",
+    "question": "Kyoto is a historic city (   ) received the 2015 World's Best Cities Award from a well-known travel magazine.",
+    "options": ["where", "which", "who", "whose"],
+    "answer": "which"
+  },
+  {
+    "id": 193,
+    "type": "基礎",
+    "question": "She is a girl (   ) it is difficult to know well.",
+    "options": ["as", "whose", "what", "whom"],
+    "answer": "whom"
+  },
+  {
+    "id": 194,
+    "type": "基礎",
+    "question": "The famous amusement park is a place (   ) we have wanted to visit for a long time.",
+    "options": ["which", "why", "in which", "where"],
+    "answer": "which"
+  },
+  {
+    "id": 195,
+    "type": "基礎",
+    "question": "This must be the novel Mr. Matsuyama (   ) his lecture.",
+    "options": ["had referred in", "had referred to", "referred to in", "was referred to"],
+    "answer": "referred to in"
+  },
+  {
+    "id": 196,
+    "type": "基礎",
+    "question": "Are you the boy (   ) bicycle was stolen?",
+    "options": ["who", "whose", "your", "his"],
+    "answer": "whose"
+  },
+  {
+    "id": 197,
+    "type": "基礎",
+    "question": "Take a look at the house (   ) roof is blue.",
+    "options": ["that", "which", "whose", "in which"],
+    "answer": "whose"
+  },
+  {
+    "id": 198,
+    "type": "基礎",
+    "question": "Red, blue and yellow are the three primary colors (   ) all other colors can be created.",
+    "options": ["by whose", "from which", "for what", "with whom"],
+    "answer": "from which"
+  },
+  {
+    "id": 199,
+    "type": "基礎",
+    "question": "This is a subject (   ) I have paid some attention.",
+    "options": ["to which", "in which", "what", "for which"],
+    "answer": "to which"
+  },
+  {
+    "id": 200,
+    "type": "基礎",
+    "question": "They arrived at the hotel (   ) they had reserved their room.",
+    "options": ["how", "when", "where", "which"],
+    "answer": "where"
+  },
+  {
+    "id": 201,
+    "type": "基礎",
+    "question": "A : How do you treat your colleagues in cases (   ) they don't work well?\nB : We must raise their motivation to work.",
+    "options": ["where", "which", "for which", "whenever"],
+    "answer": "where"
+  },
+  {
+    "id": 202,
+    "type": "基礎",
+    "question": "Summer is the season (   ) students want to travel most.",
+    "options": ["with whom", "which", "where", "when"],
+    "answer": "when"
+  },
+  {
+    "id": 203,
+    "type": "基礎",
+    "question": "Mother Teresa dedicated her life to helping sick people. That is the reason (   ) I respect her.",
+    "options": ["which", "by which", "in which", "why"],
+    "answer": "why"
+  },
+  {
+    "id": 204,
+    "type": "基礎",
+    "question": "This is (   ) he was rescued from the burning house.",
+    "options": ["what", "which", "whether", "how"],
+    "answer": "how"
+  },
+  {
+    "id": 205,
+    "type": "基礎",
+    "question": "The elderly woman, (   ) had known Tom well, said that he was very kind to her.",
+    "options": ["what", "whom", "which", "who"],
+    "answer": "who"
+  },
+  {
+    "id": 206,
+    "type": "基礎",
+    "question": "Chris had heard nothing from his brother, (   ) made him uneasy.",
+    "options": ["that", "what", "where", "which"],
+    "answer": "which"
+  },
+  {
+    "id": 207,
+    "type": "基礎",
+    "question": "He bought a cottage in the countryside, (   ) he spent the last days of his life.",
+    "options": ["which", "when", "where", "why"],
+    "answer": "where"
+  },
+  {
+    "id": 208,
+    "type": "基礎",
+    "question": "(   ) Stephen said in the conference made the chairperson angry.",
+    "options": ["Against", "That", "What", "For"],
+    "answer": "What"
+  },
+  {
+    "id": 209,
+    "type": "基礎",
+    "question": "He is totally different from (   ) he used to be.",
+    "options": ["what", "when", "where", "how"],
+    "answer": "what"
+  },
+  {
+    "id": 210,
+    "type": "基礎",
+    "question": "A person should not be judged by (   ) he or she seems to be.",
+    "options": ["that", "what", "whether", "which"],
+    "answer": "what"
+  },
+  {
+    "id": 211,
+    "type": "基礎",
+    "question": "Mary came late, and what is (   ), she forgot to bring the document.",
+    "options": ["least", "less", "more", "most"],
+    "answer": "more"
+  },
+  {
+    "id": 212,
+    "type": "基礎",
+    "question": "She likes boys (   ) she thinks have respect for their parents.",
+    "options": ["whom", "who", "whoever", "whose"],
+    "answer": "who"
+  },
+  {
+    "id": 213,
+    "type": "基礎",
+    "question": "I can't believe you lost the wallet (   ) you said was so expensive.",
+    "options": ["or", "that", "what", "and"],
+    "answer": "that"
+  },
+  {
+    "id": 214,
+    "type": "基礎",
+    "question": "(   ) is often the case with him, John was late for the meeting.",
+    "options": ["As", "When", "What", "Since"],
+    "answer": "As"
+  },
+  {
+    "id": 215,
+    "type": "基礎",
+    "question": "You can invite (   ) wants to come to the party.",
+    "options": ["those who", "who", "whoever", "whomever"],
+    "answer": "whoever"
+  },
+  {
+    "id": 216,
+    "type": "基礎",
+    "question": "(   ) you go, I will follow you.",
+    "options": ["Wherever", "Whichever", "Whatever", "Whoever"],
+    "answer": "Wherever"
+  },
+  {
+    "id": 217,
+    "type": "基礎",
+    "question": "(   ) hard she tried, she still could not pronounce the word properly.",
+    "options": ["Whatever", "Even though", "As", "However"],
+    "answer": "However"
+  },
+  {
+    "id": 218,
+    "type": "応用",
+    "question": "犯人だと思っていた男性は実は弁護士だった。\nThe man ( to / out / the criminal / I thought / turned / who / a / lawyer / be / was ).",
+    "answer": "who I thought was the criminal turned out to be a lawyer"
+  },
+  {
+    "id": 219,
+    "type": "応用",
+    "question": "成績がよい学生は奨学金がもらえるかもしれません。\nA student (   ) grades (   )(   ) may receive a scholarship.",
+    "answer": "whose are good"
+  },
+  {
+    "id": 220,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nMany authors ①find it hard ②to write about new environments ③where they ④did not know in childhood.",
+    "answer": "③をwhich(またはthat)に直す"
+  },
+  {
+    "id": 221,
+    "type": "応用",
+    "question": "英訳しなさい：私は自分の親友だと信じていた男にだまされた。",
+    "answer": "I was deceived by the man who I believed was my best friend."
+  },
+  {
+    "id": 222,
+    "type": "応用",
+    "question": "和訳しなさい：\nBiologists do not think that individuals ever act for the good of the species, but there are many situations in which what appear to be selfish individual behaviors actually benefit a group.",
+    "answer": "生物学者は、個体が種のために行動するとは全く考えていないが、利己的な個体の行動と思われるものが、実際には集団の利益になる状況は多くある。"
+  },
+  {
+    "id": 223,
+    "type": "基礎",
+    "question": "If I (   ) you, I wouldn't go out with such a person.",
+    "options": ["am", "are", "were", "will be"],
+    "answer": "were"
+  },
+  {
+    "id": 224,
+    "type": "基礎",
+    "question": "If I were the king of this country, I (   ) every Monday a national holiday.",
+    "options": ["am declaring", "will declare", "have declared", "would declare"],
+    "answer": "would declare"
+  },
+  {
+    "id": 225,
+    "type": "基礎",
+    "question": "When I arrived, the exam had already started. I wouldn't have been late if there (   ) a traffic jam.",
+    "options": ["had been", "hadn't been", "was", "wasn't"],
+    "answer": "hadn't been"
+  },
+  {
+    "id": 226,
+    "type": "基礎",
+    "question": "A : You were in Tokyo last week! Why didn't you call me?\nB : I (   ) if I'd known you were there.",
+    "options": ["had called", "may call", "would call", "would have called"],
+    "answer": "would have called"
+  },
+  {
+    "id": 227,
+    "type": "基礎",
+    "question": "If she had not stayed up so late, she (   ) so sleepy now.",
+    "options": ["will be", "would have been", "would not be", "will not have been"],
+    "answer": "would not be"
+  },
+  {
+    "id": 228,
+    "type": "基礎",
+    "question": "If I (   ) to win a lot of money, the first thing I would do is buy a new car.",
+    "options": ["can", "could", "has", "were"],
+    "answer": "were"
+  },
+  {
+    "id": 229,
+    "type": "基礎",
+    "question": "I don't think he will stop by my office. But if he (   ) while I'm out, give him more information about that.",
+    "options": ["came", "will come", "should come", "had come"],
+    "answer": "should come"
+  },
+  {
+    "id": 230,
+    "type": "基礎",
+    "question": "A : The weather is absolutely beautiful today, isn't it?\nB : Yes, I (   ) it was like this more often.",
+    "options": ["hope", "desire", "want", "wish"],
+    "answer": "wish"
+  },
+  {
+    "id": 231,
+    "type": "基礎",
+    "question": "I wish I (   ) that guy from Tokyo for his e-mail address last night.",
+    "options": ["asked", "had asked", "was asking", "would ask"],
+    "answer": "had asked"
+  },
+  {
+    "id": 232,
+    "type": "基礎",
+    "question": "A : May I smoke here?\nB : I'd rather (   ).",
+    "options": ["you didn't", "you won't", "you not to", "for you not to"],
+    "answer": "you didn't"
+  },
+  {
+    "id": 233,
+    "type": "基礎",
+    "question": "If only I (   ) allowed to have a dog. The problem is my father hates dogs!",
+    "options": ["were", "must be", "will be", "should be"],
+    "answer": "were"
+  },
+  {
+    "id": 234,
+    "type": "基礎",
+    "question": "It is high time something (   ) done to relieve the suffering of the refugees.",
+    "options": ["had been", "has been", "was", "will be"],
+    "answer": "was"
+  },
+  {
+    "id": 235,
+    "type": "基礎",
+    "question": "Ann looked as if she (   ) anything though she knew all about it.",
+    "options": ["hadn't heard", "could hear", "had been heard", "hasn't heard"],
+    "answer": "hadn't heard"
+  },
+  {
+    "id": 236,
+    "type": "基礎",
+    "question": "That problem sounds (   ) it would be difficult to me.",
+    "options": ["as long as", "as if", "even as", "even though"],
+    "answer": "as if"
+  },
+  {
+    "id": 237,
+    "type": "基礎",
+    "question": "(   ) his bad temper, he would be a nice person.",
+    "options": ["Were he not for", "If he were not", "If it were not for", "If it were not"],
+    "answer": "If it were not for"
+  },
+  {
+    "id": 238,
+    "type": "基礎",
+    "question": "(   ) water, nothing on Earth would live.",
+    "options": ["But", "Without", "Having", "Except"],
+    "answer": "Without"
+  },
+  {
+    "id": 239,
+    "type": "基礎",
+    "question": "You worked hard; (   ) you would not have succeeded.",
+    "options": ["however", "otherwise", "instead", "besides"],
+    "answer": "otherwise"
+  },
+  {
+    "id": 240,
+    "type": "基礎",
+    "question": "(   ) you were coming, I would have cleaned my room.",
+    "options": ["Did I know", "Had I known", "If I know", "When I knew"],
+    "answer": "Had I known"
+  },
+  {
+    "id": 241,
+    "type": "基礎",
+    "question": "(   ) been for the bad weather, the picnic would have gone well.",
+    "options": ["Had it have", "Had it not", "Should it have", "Were it not"],
+    "answer": "Had it not"
+  },
+  {
+    "id": 242,
+    "type": "基礎",
+    "question": "(   ) you have any further questions, do not hesitate to ask me.",
+    "options": ["Should", "Since", "While", "Would"],
+    "answer": "Should"
+  },
+  {
+    "id": 243,
+    "type": "基礎",
+    "question": "The man at the window must be a spy, since he works slowly and keeps looking around. A real cleaner (   ) the windows twice.",
+    "options": ["had never washed", "was not washing", "would not wash", "did not wash"],
+    "answer": "would not wash"
+  },
+  {
+    "id": 244,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nYou ①must be ②too busy. Otherwise, you ③will not have forgotten about such an important ④appointment.",
+    "answer": "③をwould not have forgottenに直す"
+  },
+  {
+    "id": 245,
+    "type": "応用",
+    "question": "並べ替えなさい：\nI ( you / it / I / were / talk about / if / would never ).",
+    "answer": "would never talk about it if I were you"
+  },
+  {
+    "id": 246,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nThere was a question ①on the first aid test ②that I couldn't answer, \"What would you do ③when you were bitten by a snake?\" Do you ④know the answer?",
+    "answer": "③をifに直す"
+  },
+  {
+    "id": 247,
+    "type": "応用",
+    "question": "英訳しなさい：イギリス人なら、その単語をそんなふうには発音しないだろう。",
+    "answer": "An Englishman would not pronounce the word like that."
+  },
+  {
+    "id": 248,
+    "type": "応用",
+    "question": "和訳しなさい：\nIf the EU were to recycle food waste as pig feed at similar rates to the East Asian states, this would spare 1.8 million hectares of global farmland.",
+    "answer": "仮にEUが東アジア諸国と同じような割合で食品廃棄物を豚の飼料としてリサイクルしたとしたら、これにより世界中で180万ヘクタールの農地を節約できるだろう。"
+  },
+  {
+    "id": 249,
+    "type": "基礎",
+    "question": "How (   ) will the next train for Nara leave?",
+    "options": ["far", "long", "often", "soon"],
+    "answer": "soon"
+  },
+  {
+    "id": 250,
+    "type": "基礎",
+    "question": "Check the newspaper and you will know what time (   ).",
+    "options": ["does the movie start", "the movie start", "the movie will start", "will the movie be on"],
+    "answer": "the movie will start"
+  },
+  {
+    "id": 251,
+    "type": "基礎",
+    "question": "(   ) the biggest challenge in high school education today?",
+    "options": ["Do you think that", "Do you think what it is", "What do you think is", "What do you think it is"],
+    "answer": "What do you think is"
+  },
+  {
+    "id": 252,
+    "type": "基礎",
+    "question": "(   ) you didn't tell me it was your birthday? You should have told me!",
+    "options": ["How about", "How come", "What for", "What need"],
+    "answer": "How come"
+  },
+  {
+    "id": 253,
+    "type": "基礎",
+    "question": "It's time for another meeting. What about (   ) about this matter again tomorrow?",
+    "options": ["talk", "discuss", "talking", "discussing"],
+    "answer": "talking"
+  },
+  {
+    "id": 254,
+    "type": "基礎",
+    "question": "It is getting colder here these days. (   ) is the weather like up there?",
+    "options": ["How", "What", "When", "However"],
+    "answer": "What"
+  },
+  {
+    "id": 255,
+    "type": "基礎",
+    "question": "\"Why is Sharon in such a bad mood?\" \"(   )? She never tells me anything.\"",
+    "options": ["And you know what", "How should I know", "I beg your pardon", "You know what"],
+    "answer": "How should I know"
+  },
+  {
+    "id": 256,
+    "type": "基礎",
+    "question": "What is the (   ) you anything? You never listen.",
+    "options": ["useful to tell", "using of telling", "use of telling", "use to tell"],
+    "answer": "use of telling"
+  },
+  {
+    "id": 257,
+    "type": "基礎",
+    "question": "Jacob never plays tennis, (   ) he?",
+    "options": ["can", "can't", "does", "doesn't"],
+    "answer": "does"
+  },
+  {
+    "id": 258,
+    "type": "基礎",
+    "question": "Well, well, I'm quite impressed! (   ) have I met so many well-balanced little children.",
+    "options": ["Do", "Never", "Whether", "You"],
+    "answer": "Never"
+  },
+  {
+    "id": 259,
+    "type": "基礎",
+    "question": "I've had George over to my house a dozen times, but (   ) invited me to his house.",
+    "options": ["never he has", "not he ever has", "not once has he", "not once he has"],
+    "answer": "not once has he"
+  },
+  {
+    "id": 260,
+    "type": "基礎",
+    "question": "Only when you look back (   ) realize how much change has happened in the last decade.",
+    "options": ["do you", "did you", "you don't", "you did"],
+    "a170nswer": "do you"
+  },
+  {
+    "id": 261,
+    "type": "基礎",
+    "question": "Mary thought that the teacher was unfair and (   ).",
+    "options": ["as well as I did", "nor did I", "whether did I", "so did I"],
+    "answer": "so did I"
+  },
+  {
+    "id": 262,
+    "type": "基礎",
+    "question": "\"Hey. My bike's been moved.\" \"(   ). Now you can't park it in front of the station anymore.\"",
+    "options": ["So have you", "So it has", "That it has", "So has it"],
+    "answer": "So it has"
+  },
+  {
+    "id": 263,
+    "type": "基礎",
+    "question": "We don't want to go there, and (   ) they.",
+    "options": ["either do", "so do", "neither do", "neither don't"],
+    "answer": "neither do"
+  },
+  {
+    "id": 264,
+    "type": "基礎",
+    "question": "You have no interest in his lecture, and (   ).",
+    "options": ["nor am I", "nor do I", "so am I", "so do I"],
+    "answer": "nor do I"
+  },
+  {
+    "id": 265,
+    "type": "基礎",
+    "question": "He leads (   ) life to have much time for relaxation.",
+    "options": ["a so busy", "so busy a", "a too busy", "too busy a"],
+    "answer": "so busy a"
+  },
+  {
+    "id": 266,
+    "type": "応用",
+    "question": "並べ替えなさい：\nAfter the meeting this morning, I think we ( is talking / what / all know / boss / our ) about.",
+    "answer": "all know what our boss is talking"
+  },
+  {
+    "id": 267,
+    "type": "応用",
+    "question": "A : How (   ) does it take to get to London from here?\nB : It's only a half-hour ride if you take an express.",
+    "answer": "long"
+  },
+  {
+    "id": 268,
+    "type": "応用",
+    "question": "なぜ靴下をはいていないのですか。\nHow (   ) you are not wearing socks?",
+    "answer": "come"
+  },
+  {
+    "id": 269,
+    "type": "応用",
+    "question": "英訳しなさい：どうして私が自分の母親について彼女に話をしたと思いますか。",
+    "answer": "Why do you think I talked to her about my mother?"
+  },
+  {
+    "id": 270,
+    "type": "応用",
+    "question": "和訳しなさい：\nScientists disagree over what percentage of human populations are \"right-handed\" or \"left-handed\" because there is no standard way of determining \"handedness.\"",
+    "answer": "「利き手」を決定する標準的な方法がないため、人類の何パーセントが「右利き」または「左利き」であるかについて、科学者の間で意見が分かれている。"
+  },
+  {
+    "id": 271,
+    "type": "基礎",
+    "question": "The students could not buy (   ) pencils because they were sold out.",
+    "options": ["any", "some", "every", "few"],
+    "answer": "any"
+  },
+  {
+    "id": 272,
+    "type": "基礎",
+    "question": "(   ) participants are expected to finish the race. It's over 35 km long.",
+    "options": ["Neither", "Almost", "Not all the", "Most of"],
+    "answer": "Not all the"
+  },
+  {
+    "id": 273,
+    "type": "基礎",
+    "question": "A : It was my fault.\nB : (   ). I'm the one to blame.",
+    "options": ["Not at all", "Of course", "As it should be", "Not if I can help it"],
+    "answer": "Not at all"
+  },
+  {
+    "id": 274,
+    "type": "基礎",
+    "question": "A : Did you talk over your summer plans with Sam?\nB : (   ) whom I would want to talk to about that.\nA : Sorry. I forgot you two are no longer on speaking terms.",
+    "options": ["He is the person", "He is the best person", "He is the last person", "He is the far better person"],
+    "answer": "He is the last person"
+  },
+  {
+    "id": 275,
+    "type": "基礎",
+    "question": "He is (   ) but shy.",
+    "options": ["none", "anything", "not", "something"],
+    "answer": "anything"
+  },
+  {
+    "id": 276,
+    "type": "基礎",
+    "question": "Although they all took what he said seriously, it was (   ) but a joke.",
+    "options": ["all", "anything", "nothing", "the last"],
+    "answer": "nothing"
+  },
+  {
+    "id": 277,
+    "type": "基礎",
+    "question": "All (   ) Peter were able to get to class on time.",
+    "options": ["but", "not", "that", "without"],
+    "answer": "but"
+  },
+  {
+    "id": 278,
+    "type": "基礎",
+    "question": "The publishing firm expected his new novel to be a great hit, but it was (   ) from being a success.",
+    "options": ["away", "opposite", "far", "distant"],
+    "answer": "far"
+  },
+  {
+    "id": 279,
+    "type": "基礎",
+    "question": "This new drug is (   ) from side effects.",
+    "options": ["free", "far", "independent", "nothing but"],
+    "answer": "free"
+  },
+  {
+    "id": 280,
+    "type": "基礎",
+    "question": "We found that many things still (   ) to be improved.",
+    "options": ["contain", "gain", "obtain", "remain"],
+    "answer": "remain"
+  },
+  {
+    "id": 281,
+    "type": "基礎",
+    "question": "I have (   ) meet a person as dedicated to her job as Maria.",
+    "options": ["already", "known", "never", "yet to"],
+    "answer": "yet to"
+  },
+  {
+    "id": 282,
+    "type": "基礎",
+    "question": "I cannot listen to this song (   ) my junior high school days.",
+    "options": ["to recall about", "by recalling on", "without recall", "without recalling"],
+    "answer": "without recalling"
+  },
+  {
+    "id": 283,
+    "type": "基礎",
+    "question": "(   ), even dangerous white bears can become skillful performers at zoos.",
+    "options": ["When to train", "To train them", "When trained", "As trained"],
+    "answer": "When trained"
+  },
+  {
+    "id": 284,
+    "type": "基礎",
+    "question": "There are few mistakes, (   ), which one can make with these plants. They require only basic maintenance and care.",
+    "options": ["if any", "if ever", "if not", "if possible"],
+    "answer": "if any"
+  },
+  {
+    "id": 285,
+    "type": "基礎",
+    "question": "My mother seldom, (   ), drinks coffee.",
+    "options": ["at ease", "in time", "for ever", "if ever"],
+    "answer": "if ever"
+  },
+  {
+    "id": 286,
+    "type": "基礎",
+    "question": "Very little, if (   ), is known about the origins of this language.",
+    "options": ["anything", "necessary", "possible", "something"],
+    "answer": "anything"
+  },
+  {
+    "id": 287,
+    "type": "基礎",
+    "question": "You should stay here at least a week, (   ) a month.",
+    "options": ["if not", "as well as", "as long as", "even if"],
+    "answer": "if not"
+  },
+  {
+    "id": 288,
+    "type": "基礎",
+    "question": "(   ) if we all get together and buy one big present?",
+    "options": ["Suppose", "How", "As", "What"],
+    "answer": "What"
+  },
+  {
+    "id": 289,
+    "type": "基礎",
+    "question": "Mom always says it is kindness (   ) plays a very important part in human relationships.",
+    "options": ["what", "that", "who", "whose"],
+    "answer": "that"
+  },
+  {
+    "id": 290,
+    "type": "基礎",
+    "question": "It was not (   ) I had children of my own that I understood how my parents felt.",
+    "options": ["if", "until", "so", "thus"],
+    "answer": "until"
+  },
+  {
+    "id": 291,
+    "type": "基礎",
+    "question": "(   ) that told you such a story?",
+    "options": ["Who could", "Who should be", "Who was it", "Who would it"],
+    "answer": "Who was it"
+  },
+  {
+    "id": 292,
+    "type": "応用",
+    "question": "夜になって初めて，テッドは事態の重大さに気がついた。\nIt was ( that / was / serious / until / recognized / Ted / how / the / situation / evening / not ).",
+    "answer": "not until evening that Ted recognized how serious the situation was"
+  },
+  {
+    "id": 293,
+    "type": "応用",
+    "question": "その仕事は，決して満足のいくものではなかった。\nThe work was (   ) from satisfactory.",
+    "answer": "far"
+  },
+  {
+    "id": 294,
+    "type": "応用",
+    "question": "彼はその湖に行くときは，必ず釣り竿とほかの道具を持って行く。\n( and / bringing / equipment / fishing / he / his / lake / never / other / rod / the / visits / without ).",
+    "answer": "he never visits the lake without bringing his fishing rod and other equipment"
+  },
+  {
+    "id": 295,
+    "type": "応用",
+    "question": "英訳しなさい：彼は，たとえあるにしても，めったに人前で話しません。",
+    "answer": "He seldom, if ever, speaks in public."
+  },
+  {
+    "id": 296,
+    "type": "応用",
+    "question": "和訳しなさい：\nNot every student in Japan must study abroad, but steps should be taken to give a gentle push to make it easier for those who want to.",
+    "answer": "日本のすべての学生が留学しなければならないわけではないが、留学したいと思う学生にとってより容易になるよう、そっと後押しする措置が取られるべきである。"
+  },
+  {
+    "id": 297,
+    "type": "基礎",
+    "question": "He wants to buy a sports car if he can afford (   ).",
+    "options": ["one", "this", "some", "it"],
+    "answer": "one"
+  },
+  {
+    "id": 298,
+    "type": "基礎",
+    "question": "As I had my bicycle stolen, I bought a new (   ).",
+    "options": ["another", "other", "it", "one"],
+    "answer": "one"
+  },
+  {
+    "id": 299,
+    "type": "基礎",
+    "question": "This book is not so exciting as (   ) I read last year.",
+    "options": ["a one", "it", "the one", "which"],
+    "answer": "the one"
+  },
+  {
+    "id": 300,
+    "type": "基礎",
+    "question": "I found these keys. Are they (   ) that you lost yesterday?",
+    "options": ["one", "ones", "the one", "the ones"],
+    "answer": "the ones"
+  },
+  {
+    "id": 301,
+    "type": "基礎",
+    "question": "The taste of rabbit meat is very similar to (   ) of chicken or turkey.",
+    "options": ["what", "which", "that", "those"],
+    "answer": "that"
+  },
+  {
+    "id": 302,
+    "type": "基礎",
+    "question": "The legs of a horse are longer than (   ) of a sheep.",
+    "options": ["it", "that", "those", "these"],
+    "answer": "those"
+  },
+  {
+    "id": 303,
+    "type": "基礎",
+    "question": "Jimmy's lecture made a great impression on all (   ) present.",
+    "options": ["that", "who", "those", "whoever"],
+    "answer": "those"
+  },
+  {
+    "id": 304,
+    "type": "基礎",
+    "question": "Sexual harassment is a serious issue and should be treated as (   ).",
+    "options": ["if", "much", "such", "yet"],
+    "answer": "such"
+  },
+  {
+    "id": 305,
+    "type": "基礎",
+    "question": "彼らのコンサートに約50,000人が来ると見込まれています。\n(   ) is anticipated that about 50,000 people will come to their concert.",
+    "options": ["It", "That", "There", "What"],
+    "answer": "It"
+  },
+  {
+    "id": 306,
+    "type": "基礎",
+    "question": "I consider (   ) rude to ignore a formal letter of invitation.",
+    "options": ["that", "those", "too", "it"],
+    "answer": "it"
+  },
+  {
+    "id": 307,
+    "type": "基礎",
+    "question": "Widely known folklore (   ) ghosts are most likely to appear between 2 and 3 a.m.",
+    "options": ["has said it", "has been told that", "has it that", "has heard that"],
+    "answer": "has it that"
+  },
+  {
+    "id": 308,
+    "type": "基礎",
+    "question": "If you forgot your pencil, you can use one of (   ).",
+    "options": ["my", "mine", "mines", "our"],
+    "answer": "mine"
+  },
+  {
+    "id": 309,
+    "type": "基礎",
+    "question": "Please take (   ) with you and tell me what you think of them tomorrow.",
+    "options": ["these letters of his", "these his letters", "his letters of these", "his these letters"],
+    "answer": "these letters of his"
+  },
+  {
+    "id": 310,
+    "type": "基礎",
+    "question": "I asked two people the way to the national library but (   ) of them knew.",
+    "options": ["none", "both", "either", "neither"],
+    "answer": "neither"
+  },
+  {
+    "id": 311,
+    "type": "基礎",
+    "question": "Kenji has two brothers, but he is not on speaking terms with them. In other words, he doesn't talk to (   ) of them.",
+    "options": ["which", "both", "either", "neither"],
+    "answer": "either"
+  },
+  {
+    "id": 312,
+    "type": "基礎",
+    "question": "There are tall buildings on (   ) side of the street.",
+    "options": ["both", "opposite", "either", "all"],
+    "answer": "either"
+  },
+  {
+    "id": 313,
+    "type": "基礎",
+    "question": "Mr. Johnson did not choose any of the three ties because he found (   ) attractive.",
+    "options": ["both of them", "either of them", "neither of them", "none of them"],
+    "answer": "none of them"
+  },
+  {
+    "id": 314,
+    "type": "基礎",
+    "question": "(   ) of the students were able to answer the question.",
+    "options": ["Anyone", "Everyone", "Nobody", "None"],
+    "answer": "None"
+  },
+  {
+    "id": 315,
+    "type": "基礎",
+    "question": "I keep nine hamsters in my room, and (   ) of them has a name.",
+    "options": ["all", "each", "either", "every"],
+    "answer": "each"
+  },
+  {
+    "id": 316,
+    "type": "基礎",
+    "question": "My sister and I are afraid of heights, so (   ) of us hate to fly in airplanes.",
+    "options": ["either", "each", "both", "neither"],
+    "answer": "both"
+  },
+  {
+    "id": 317,
+    "type": "基礎",
+    "question": "(   ) student who is interested in this exchange program should contact Professor Johnson.",
+    "options": ["Many", "Some", "Any", "All"],
+    "answer": "Any"
+  },
+  {
+    "id": 318,
+    "type": "基礎",
+    "question": "The store had (   ) kind of strange animal you could imagine.",
+    "options": ["all", "many", "several", "every"],
+    "answer": "every"
+  },
+  {
+    "id": 285,
+    "type": "基礎",
+    "question": "My mother seldom, (   ), drinks coffee.",
+    "options": ["at ease", "in time", "for ever", "if ever"],
+    "answer": "if ever"
+  },
+  {
+    "id": 286,
+    "type": "基礎",
+    "question": "Very little, if (   ), is known about the origins of this language.",
+    "options": ["anything", "necessary", "possible", "something"],
+    "answer": "anything"
+  },
+  {
+    "id": 287,
+    "type": "基礎",
+    "question": "You should stay here at least a week, (   ) a month.",
+    "options": ["if not", "as well as", "as long as", "even if"],
+    "answer": "if not"
+  },
+  {
+    "id": 288,
+    "type": "基礎",
+    "question": "(   ) if we all get together and buy one big present?",
+    "options": ["Suppose", "How", "As", "What"],
+    "answer": "What"
+  },
+  {
+    "id": 289,
+    "type": "基礎",
+    "question": "Mom always says it is kindness (   ) plays a very important part in human relationships.",
+    "options": ["what", "that", "who", "whose"],
+    "answer": "that"
+  },
+  {
+    "id": 290,
+    "type": "基礎",
+    "question": "It was not (   ) I had children of my own that I understood how my parents felt.",
+    "options": ["if", "until", "so", "thus"],
+    "answer": "until"
+  },
+  {
+    "id": 291,
+    "type": "基礎",
+    "question": "(   ) that told you such a story?",
+    "options": ["Who could", "Who should be", "Who was it", "Who would it"],
+    "answer": "Who was it"
+  },
+  {
+    "id": 319,
+    "type": "基礎",
+    "question": "You should take this medicine (   ).",
+    "options": ["each six hour", "each six hours", "every six hour", "every six hours"],
+    "answer": "every six hours"
+  },
+  {
+    "id": 320,
+    "type": "基礎",
+    "question": "She makes it a rule to go to see her friend in the hospital (   ).",
+    "options": ["by the day", "every in the morning", "every other day", "twice of a day"],
+    "answer": "every other day"
+  },
+  {
+    "id": 321,
+    "type": "基礎",
+    "question": "According to today's newspaper, two men escaped from the prison; one was arrested, but (   ) still hasn't been found.",
+    "options": ["another", "other", "the other", "the others"],
+    "answer": "the other"
+  },
+  {
+    "id": 322,
+    "type": "基礎",
+    "question": "Ms. Perkins is not paid well, so she is considering working for (   ) company.",
+    "options": ["others", "other", "the another", "another"],
+    "answer": "another"
+  },
+  {
+    "id": 323,
+    "type": "基礎",
+    "question": "English is one of the six official languages of the United Nations, (   ) being French, Russian, Spanish, Chinese, and Arabic.",
+    "options": ["another", "others", "the other", "the others"],
+    "answer": "the others"
+  },
+  {
+    "id": 324,
+    "type": "基礎",
+    "question": "Some were for the proposal, (   ) were against it, and the rest didn't express their opinions.",
+    "options": ["other", "others", "the other", "the others"],
+    "answer": "others"
+  },
+  {
+    "id": 325,
+    "type": "基礎",
+    "question": "It is one thing to want to climb Mt. Everest, but it is (   ) thing to do it.",
+    "options": ["another", "other", "the other", "some other"],
+    "answer": "another"
+  },
+  {
+    "id": 326,
+    "type": "基礎",
+    "question": "The physician will examine all of you (   ).",
+    "options": ["one after others", "the one after the other", "one after another", "one after the another"],
+    "answer": "one after another"
+  },
+  {
+    "id": 327,
+    "type": "基礎",
+    "question": "If you want to get this bag, you'll have to pay (   ) fifty dollars.",
+    "options": ["another", "other", "others", "the other"],
+    "answer": "another"
+  },
+  {
+    "id": 328,
+    "type": "基礎",
+    "question": "(   ) Japanese are afraid of earthquakes.",
+    "options": ["Most", "Most of", "Almost", "Almost of"],
+    "answer": "Most"
+  },
+  {
+    "id": 329,
+    "type": "基礎",
+    "question": "(   ) all people in Japan have a mobile phone.",
+    "options": ["Most", "Most of", "Almost", "Almost of"],
+    "answer": "Almost"
+  },
+  {
+    "id": 330,
+    "type": "基礎",
+    "question": "(   ) students are living away from their home.",
+    "options": ["The most of", "Almost", "Most of", "Most of the"],
+    "answer": "Most of the"
+  },
+  {
+    "id": 331,
+    "type": "基礎",
+    "question": "(   ) students in the classroom looked older than me.",
+    "options": ["Almost all the", "Almost every", "Most of", "Most the"],
+    "answer": "Almost all the"
+  },
+  {
+    "id": 332,
+    "type": "基礎",
+    "question": "A : Can you join me for lunch after this lecture?\nB : (   ) Where are we eating?\nA : In the student cafeteria on the 17th floor. I love the view from there. Find me there at 12:20.",
+    "options": ["I can't.", "I doubt it.", "I guess so.", "I'm lost."],
+    "answer": "I guess so."
+  },
+  {
+    "id": 333,
+    "type": "基礎",
+    "question": "A : Is Betty coming to my birthday party tonight?\nB : (   ). She is busy with her homework.",
+    "options": ["I don't suppose it", "I suppose it", "I suppose not", "I suppose so"],
+    "answer": "I suppose not"
+  },
+  {
+    "id": 334,
+    "type": "基礎",
+    "question": "Don't blame me! I have nothing to do (   ) that problem.",
+    "options": ["away", "of", "off", "with"],
+    "answer": "with"
+  },
+  {
+    "id": 335,
+    "type": "基礎",
+    "question": "Cigarette smoking has (   ) to do with lung cancer.",
+    "options": ["lot", "enough", "many", "much"],
+    "answer": "much"
+  },
+  {
+    "id": 336,
+    "type": "基礎",
+    "question": "There is a lot of old furniture in my room. You can take whatever you like for nothing.\n= (   )",
+    "options": ["absolutely", "by no means", "free of charge", "rarely"],
+    "answer": "free of charge"
+  },
+  {
+    "id": 337,
+    "type": "基礎",
+    "question": "There may be something (   ) with this computer.",
+    "options": ["the matter", "mattered", "to matter", "has mattered"],
+    "answer": "the matter"
+  },
+  {
+    "id": 338,
+    "type": "基礎",
+    "question": "Kenji cares so little about food that (   ) will do, so long as it fills his stomach.",
+    "options": ["none", "something", "nothing", "anything"],
+    "answer": "anything"
+  },
+  {
+    "id": 339,
+    "type": "基礎",
+    "question": "Anne had a great vacation. She enjoyed (   ) very much.",
+    "options": ["her", "hers", "herself", "she"],
+    "answer": "herself"
+  },
+  {
+    "id": 340,
+    "type": "基礎",
+    "question": "While playing soccer yesterday, Jeff hurt (   ) and had to be rushed to the hospital.",
+    "options": ["himself", "by himself", "on himself", "to himself"],
+    "answer": "himself"
+  },
+  {
+    "id": 341,
+    "type": "基礎",
+    "question": "A : I'd like another piece of cake, if I may.\nB : Sure, (   ) yourself to it.",
+    "options": ["bet", "help", "mention", "miss"],
+    "answer": "help"
+  },
+  {
+    "id": 342,
+    "type": "基礎",
+    "question": "The technician found the DVD (   ) to be the problem and not the machine that was playing it.",
+    "options": ["itself", "its", "it", "it's own"],
+    "answer": "itself"
+  },
+  {
+    "id": 343,
+    "type": "基礎",
+    "question": "A : Who did you go to the movie with?\nB : No one. I went (   ).",
+    "options": ["by myself", "with him", "with anyone", "by nobody"],
+    "answer": "by myself"
+  },
+  {
+    "id": 344,
+    "type": "基礎",
+    "question": "On Saturday mornings it was unusual for anybody to be up before ten, so Helen had the living room (   ) herself.",
+    "options": ["by", "in", "to", "with"],
+    "answer": "to"
+  },
+  {
+    "id": 345,
+    "type": "基礎",
+    "question": "John was (   ) with joy when his wife gave birth to their first child.",
+    "options": ["beside him", "beside himself", "besides him", "besides himself"],
+    "answer": "beside himself"
+  },
+  {
+    "id": 346,
+    "type": "応用",
+    "question": "並べ替えなさい：\n( with / covered / of / were / the books / all / almost ) dust.",
+    "answer": "almost all of the books were covered with"
+  },
+  {
+    "id": 347,
+    "type": "応用",
+    "question": "並べ替えなさい：この事業は金と食べ物と着る物を必要としている人々を支援すると期待されている。\nThis project is ( those / in / expected / need / to / help / are / who ) of money, food, and clothing.",
+    "answer": "expected to help those who are in need"
+  },
+  {
+    "id": 348,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nTo prevent ①damage from ②heavy snow, the houses in the northern area have ③steeper roofs than ④that in the southern area.",
+    "answer": "④をthoseに直す"
+  },
+  {
+    "id": 349,
+    "type": "応用",
+    "question": "並べ替えなさい：高知の人口は東京の人口よりはるかに少ない。\n( than / Kochi / is / of / population / smaller / of / the / that / much ) Tokyo.",
+    "answer": "the population of Kochi is much smaller than that of"
+  },
+  {
+    "id": 350,
+    "type": "応用",
+    "question": "英訳しなさい：彼の失敗は、どうも性格と何か関係がありそうだ。",
+    "answer": "His failure seems to have something to do with his character."
+  },
+  {
+    "id": 351,
+    "type": "応用",
+    "question": "和訳しなさい：\nWhereas some people say that Cantonese is a dialect of Chinese, others insist that it is a language in its own right.",
+    "answer": "広東語は中国語の方言だと言う人がいる一方で、それは独立した言語だと主張する人もいる。"
+  },
+  {
+    "id": 352,
+    "type": "基礎",
+    "question": "Not only Elizabeth, but also her friends (   ) interested in buying a new spring coat in Paris next month.",
+    "options": ["are", "be", "is", "was"],
+    "answer": "are"
+  },
+  {
+    "id": 353,
+    "type": "基礎",
+    "question": "Neither Brian nor I (   ) fond of professional baseball.",
+    "options": ["is", "am", "has", "feels"],
+    "answer": "am"
+  },
+  {
+    "id": 354,
+    "type": "基礎",
+    "question": "About three fourths of the earth's surface (   ) of water.",
+    "options": ["is consisting", "are consisting", "consists", "consist"],
+    "answer": "consists"
+  },
+  {
+    "id": 355,
+    "type": "基礎",
+    "question": "(   ) of the students has waited all day to attend the lecture.",
+    "options": ["All", "Few", "One", "Some"],
+    "answer": "One"
+  },
+  {
+    "id": 356,
+    "type": "基礎",
+    "question": "The number of children being born (   ) decreasing.",
+    "options": ["are", "has become", "has come to", "is"],
+    "answer": "is"
+  },
+  {
+    "id": 357,
+    "type": "基礎",
+    "question": "A number of people (   ) not yet been fully convinced that oil is disappearing as quickly as some suggest.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "have"
+  },
+  {
+    "id": 358,
+    "type": "基礎",
+    "question": "Knowing several (   ) helpful if you want to work for an international company in the future.",
+    "options": ["language are", "language is", "languages are", "languages is"],
+    "answer": "languages is"
+  },
+  {
+    "id": 359,
+    "type": "基礎",
+    "question": "The police (   ) caught the criminal now.",
+    "options": ["have", "is", "has", "was"],
+    "answer": "have"
+  },
+  {
+    "id": 360,
+    "type": "基礎",
+    "question": "Developing good communication with your clients usually (   ) about a successful business relationship in the end.",
+    "options": ["bring", "brings", "bringing", "bring up"],
+    "answer": "brings"
+  },
+  {
+    "id": 361,
+    "type": "基礎",
+    "question": "Few insects live in regions where (   ) extremely frigid temperatures.",
+    "options": ["are", "there are", "are there", "there"],
+    "answer": "there are"
+  },
+  {
+    "id": 362,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nThere ①has always ②been quite a few people who don't believe getting ③exposed to the sun is bad.",
+    "answer": "①をhaveに直す"
+  },
+  {
+    "id": 363,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\nThe number of ①participants ②who attended the afternoon lecture ③were ④more than we had expected.",
+    "answer": "③をwasに直す"
+  },
+  {
+    "id": 364,
+    "type": "応用",
+    "question": "誤っている箇所を1つ指摘して、正しい形に直しなさい。\n①Understanding the distribution ②and population size of organisms ③help scientists ④evaluate the health of the environment.",
+    "answer": "③をhelpsに直す"
+  },
+  {
+    "id": 365,
+    "type": "応用",
+    "question": "英訳しなさい：海外に旅行に行く人の数が急激に増えています。",
+    "answer": "The number of people traveling abroad is increasing rapidly."
+  },
+  {
+    "id": 366,
+    "type": "応用",
+    "question": "和訳しなさい：\nBeing able to get the most out of your teams, as a participant or a team leader, improves the team's spirit as well as its productivity and creativity.",
+    "answer": "参加者あるいはチームリーダーとして、自分のチームの力を最大限に引き出すことができると、チームの生産性や創造性だけでなく、チームの士気も向上する。"
+  },
+  {
+    "id": 367,
+    "type": "基礎",
+    "question": "Members of at least seven famiies of fishes can generate electricity, including the electric eel, the knifefish, (   ).",
+    "options": ["and so can the electric catfish", "and the electric catfish can", "and the electric catfish", "as well as the electric catfish can"],
+    "answer": "and the electric catfish"
+  },
+  {
+  "id": 368,
+  "type": "基礎",
+  "question": "Excuse me, (   ) do you have the time?",
+  "options": ["and", "but", "so", "thus"],
+  "answer": "but"
+ },
+ {
+   "id": 369,
+   "type": "基礎",
+   "question": "The new technology is expected to enhance people’s well-being and happiness, (   ) it also has the potential of being used for unethical purposes.",
+   "options": ["because", "or", "so", "yet"],
+   "answer": "yet"
+ },
+ {
+   "id": 370,
+   "type": "基礎",
+   "question": "(   ) a subway or bus in New York, and you’ll find yourself reading interesting advertisements along the way.",
+   "options": ["By taking", "Taking", "To take", "Take"],
+   "answer": "Take"
+ },
+ {
+   "id": 371,
+   "type": "基礎",
+   "question": "Both historically and (   ), Kyoto is the heartland of Japan.",
+   "options": [
+     "also its geographically",
+     "geographically",
+     "in its geography",
+     "the geography"
+   ],
+   "answer": "geographically"
+ },
+ {
+   "id": 372,
+   "type": "基礎",
+   "question": "What is important is (   ), but what has not been said in the meeting.",
+   "options": [
+     "no matter what has been said",
+     "what has never been said",
+     "whatever has been said",
+     "not what has been said"
+   ],
+   "answer": "not what has been said"
+ },
+ {
+   "id": 373,
+   "type": "基礎",
+   "question": "For dessert, there is either cake (    ) ice cream.",
+   "options": ["and", "else", "instead", "or"],
+   "answer": "or"
+ },
+ {
+   "id": 374,
+   "type": "基礎",
+   "question": "There are times when Jack feels lonely, as he has neither a brother (   ) sister.",
+   "options": ["and a", "neither a", "nor a", "without a"],
+   "answer": "nor a"
+ },
+ {
+   "id": 375,
+   "type": "基礎",
+   "question": "I could not believe the fact (   ) California used to belong to Mexico.",
+   "options": ["why", "how", "that", "which"],
+   "answer": "that"
+ },
+ {
+   "id": 376,
+   "type": "基礎",
+   "question": "The waiter asked me (   ) I would like some coffee.",
+   "options": ["if", "that", "what", "which"],
+   "answer": "if"
+ },
+ {
+   "id": 377,
+   "type": "基礎",
+   "question": "Human beings differ from other animals in (   ) they can make use of fire.",
+   "options": ["so", "that", "what", "which"],
+   "answer": "that"
+ },
+ {
+   "id": 378,
+   "type": "基礎",
+   "question": "I can see that you are about halfway through that novel. Could I borrow your book (   ) you are finished with it?",
+   "options": ["as soon", "since", "when", "while"],
+   "answer": "when"
+ },
+ {
+   "id": 379,
+   "type": "基礎",
+   "question": "(   ) the annual clearance was launched, sales of our products have more than doubled.",
+   "options": ["For", "Since", "Unless", "Until"],
+   "answer": "Since"
+ },
+ {
+   "id": 380,
+   "type": "基礎",
+   "question": "(   ) the Revolutionary War ended in 1783, Boston merchants began to build huge fortunes through foreign trade.",
+   "options": ["After", "During", "If", "Over"],
+   "answer": "After"
+ },
+ {
+   "id": 381,
+   "type": "基礎",
+   "question": "(   ) my son enters elementary school, he should be able to say the English alphabet.",
+   "options": ["Before long", "By the time", "While", "Until"],
+   "answer": "By the time"
+ },
+ {
+   "id": 382,
+   "type": "基礎",
+   "question": "I wanted to relax on my bed, but my mother began cleaning my room. So, I stayed in the living room (   ) she finished.",
+   "options": ["until", "by", "when", "though"],
+   "answer": "until"
+ },
+ {
+   "id": 383,
+   "type": "基礎",
+   "question": "We won’t be getting married (   ) we’ve saved enough money.",
+   "options": ["as", "if", "while", "until"],
+   "answer": "until"
+ },
+ {
+   "id": 384,
+   "type": "基礎",
+   "question": "It won’t be long (   ).",
+   "options": [
+     "that spring will come",
+     "when spring comes",
+     "before spring comes",
+     "until spring will come"
+   ],
+   "answer": "before spring comes"
+ },
+ {
+   "id": 385,
+   "type": "基礎",
+   "question": "I’ll proceed to the convention center registration desk (   ) I’ve finished checking into the hotel.",
+   "options": ["while", "as soon as", "until", "immediately before"],
+   "answer": "as soon as"
+ },
+ {
+   "id": 386,
+   "type": "基礎",
+   "question": "(   ) I saw the cute puppy at the shop, I decided to buy it as my pet.",
+   "options": ["The moment", "By the moment", "To the moment", "For the moment"],
+   "answer": "The moment"
+ },
+ {
+   "id": 387,
+   "type": "基礎",
+   "question": "She had been on the phone to a friend when she noticed a strange smell start to spread through the house. (   ) had she escaped through the front door than flames started rising through the roof.",
+   "options": ["Not until", "Hardly ever", "No sooner", "Unless otherwise"],
+   "answer": "No sooner"
+ },
+ {
+   "id": 388,
+   "type": "基礎",
+   "question": "(   ) I hear that song, it makes me want to dance.",
+   "options": ["Every time", "In time", "Time by time", "On time"],
+   "answer": "Every time"
+ },
+ {
+   "id": 389,
+   "type": "基礎",
+   "question": "(   ) you won the lottery, what would you do with the money?",
+   "options": ["Suppose", "Think", "Hope", "Let"],
+   "answer": "Suppose"
+ },
+ {
+   "id": 390,
+   "type": "基礎",
+   "question": "This game is easy, (   ) you learn the basic rules.",
+   "options": ["with", "even if", "once", "unless"],
+   "answer": "once"
+ },
+ {
+   "id": 391,
+   "type": "基礎",
+   "question": "(   ) we fix the problem now, we will never be able to succeed.",
+   "options": ["If", "Unless", "Because", "Despite"],
+   "answer": "Unless"
+ },
+ {
+   "id": 392,
+   "type": "基礎",
+   "question": "We enjoyed our stay on the beach, (   ) the weather was cloudy and windy.",
+   "options": ["despite", "in spite of", "although", "regardless of"],
+   "answer": "although"
+ },
+ {
+   "id": 393,
+   "type": "基礎",
+   "question": "They went to the party (   ) they had a test the next day.",
+   "options": ["despite", "even", "even though", "in spite of"],
+   "answer": "even though"
+ },
+ {
+   "id": 394,
+   "type": "基礎",
+   "question": "(   ) we understand his anger, we cannot accept his behavior.",
+   "options": ["Even if", "Only if", "What if", "As if"],
+   "answer": "Even if"
+ },
+ {
+   "id": 395,
+   "type": "基礎",
+   "question": "Different (   ) Warren and Graham were, they shared something in common.",
+   "options": ["if", "how", "as", "unless"],
+   "answer": "as"
+ },
+ {
+   "id": 396,
+   "type": "基礎",
+   "question": "In Japan, the advertisements carry so many foreign words (   ) people who are concerned for the future of the Japanese language often let out cries of alarm.",
+   "options": ["as far as", "because", "if", "that"],
+   "answer": "that"
+ },
+ {
+   "id": 397,
+   "type": "基礎",
+   "question": "It was (   ) that I took a day off from work.",
+   "options": ["a so lovely day", "a such lovely day", "so a lovely day", "such a lovely day"],
+   "answer": "such a lovely day"
+ },
+ {
+   "id": 398,
+   "type": "基礎",
+   "question": "Tatsuya went home early today (   ) he could prepare dinner for his wife.",
+   "options": ["so that", "as for", "as such", "in order to"],
+   "answer": "so that"
+ },
+ {
+   "id": 399,
+   "type": "基礎",
+   "question": "We are sending our representative (   ) you may discuss the matter with her.",
+   "options": ["in order that", "to order in", "in order to", "order as in"],
+   "answer": "in order that"
+ },
+ {
+   "id": 400,
+   "type": "基礎",
+   "question": "You should insure your car (   ) stolen.",
+   "options": ["in case it will be", "if it will be", "if it is", "in case it is"],
+   "answer": "in case it is"
+ },
+ {
+   "id": 401,
+   "type": "基礎",
+   "question": "(   ) that you are a college student, you ought to know better.",
+   "options": ["After", "In order", "Now", "So"],
+   "answer": "Now"
+ },
+ {
+   "id": 402,
+   "type": "基礎",
+   "question": "As (   ) as I am concerned, this is not a big problem.",
+   "options": ["far", "soon", "possible", "well"],
+   "answer": "far"
+ },
+ {
+   "id": 403,
+   "type": "基礎",
+   "question": "I will keep this promise as (   ) as I live.",
+   "options": ["late", "soon", "far", "long"],
+   "answer": "long"
+ },
+ {
+   "id": 404,
+   "type": "基礎",
+   "question": "Our class was scolded by the teacher for chatting (   ) she was teaching.",
+   "options": ["during", "then", "the time", "while"],
+   "answer": "while"
+ },
+ {
+   "id": 405,
+   "type": "基礎",
+   "question": "The smoking rate among women is increasing, (   ) that of men is decreasing.",
+   "options": ["contrary", "opposite", "unequal", "whereas"],
+   "answer": "whereas"
+ },
+ {
+   "id": 406,
+   "type": "基礎",
+   "question": "The weather was getting better and better, (   ) the day went on.",
+   "options": ["for", "as", "that", "unless"],
+   "answer": "as"
+ },
+ {
+   "id": 407,
+   "type": "応用",
+   "question": "On arriving at the hotel, he called his son. = ( ) ( ) ( ) he arrived at the hotel, he called his son.",
+   "answer": "No sooner had than"
+ },
+ {
+   "id": 408,
+   "type": "応用",
+   "question": "Monkeys learn tricks (give great performances / they will / that / be able to / so easily) in a short time.",
+   "answer": "that they will be able to give great performances so easily"
+ },
+ {
+   "id": 409,
+   "type": "応用",
+   "question": "Mr. Parker is very busy today. Don’t call him ( ) it’s urgent.",
+   "options": ["unless", "if", "when", "because"],
+   "answer": "unless"
+ },
+ {
+   "id": 410,
+   "type": "応用",
+   "question": "まもなく私たちは宇宙旅行を楽しむことができるだろう。",
+   "answer": "It won’t be long before we can enjoy space travel."
+ },
+ {
+   "id": 411,
+   "type": "応用",
+   "question": "It’s possible that staying busy increases people’s ability to learn new things, as they may be exposed to different situations, people, and information on a daily basis.",
+   "answer": "忙しくしていることが、人の新しいことを学ぶ能力を高めるということがありうる。人は毎日のように、様々な状況、人間、情報にさらされる可能性があるからだ。"
+ },
+ {
+   "id": 412,
+   "type": "基礎",
+   "question": "We left London (   ) the morning of June 7, 2007.",
+   "options": ["at", "on", "to", "for"],
+   "answer": "on"
+ },
+ {
+   "id": 413,
+   "type": "基礎",
+   "question": "A: What time does the library close? B: It closes at 9 p.m. Monday to Friday and 6 p.m. (   ) Saturdays.",
+   "options": ["at", "by", "in", "on"],
+   "answer": "on"
+ },
+ {
+   "id": 414,
+   "type": "基礎",
+   "question": "To prepare for the New Year’s sale, the employees will work (   ) midnight.",
+   "options": ["in", "till", "by", "on"],
+   "answer": "till"
+ },
+ {
+   "id": 415,
+   "type": "基礎",
+   "question": "Please complete the assignment (   ) next Monday.",
+   "options": ["by", "until", "since", "to"],
+   "answer": "by"
+ },
+ {
+   "id": 416,
+   "type": "基礎",
+   "question": "We hope to see a couple of shows (   ) our stay in New York City.",
+   "options": ["for", "during", "while", "until"],
+   "answer": "during"
+ },
+ {
+   "id": 417,
+   "type": "基礎",
+   "question": "Please wait here (   ) five minutes.",
+   "options": ["until", "for", "by", "during"],
+   "answer": "for"
+ },
+ {
+   "id": 418,
+   "type": "基礎",
+   "question": "I got sick last month and lost five kilos, but (   ) a week I was right back up to my regular weight.",
+   "options": ["within", "by", "until", "from"],
+   "answer": "within"
+ },
+ {
+   "id": 419,
+   "type": "基礎",
+   "question": "I’m looking forward to seeing you (   ) three weeks.",
+   "options": ["about", "from", "in", "until"],
+   "answer": "in"
+ },
+ {
+   "id": 420,
+   "type": "基礎",
+   "question": "If you don’t know how to get to Mary’s party, let’s meet (   ) the corner of 4th Street and 5th Avenue.",
+   "options": ["with", "in", "to", "at"],
+   "answer": "at"
+ },
+ {
+   "id": 421,
+   "type": "基礎",
+   "question": "They went fishing (   ) the river.",
+   "options": ["over", "under", "in", "to"],
+   "answer": "in"
+ },
+ {
+   "id": 422,
+   "type": "基礎",
+   "question": "London is situated (   ) the River Thames.",
+   "options": ["in", "on", "to", "with"],
+   "answer": "on"
+ },
+ {
+   "id": 423,
+   "type": "基礎",
+   "question": "My home town is about 100 kilometers (   ) the north of Tokyo.",
+   "options": ["for", "off", "on", "to"],
+   "answer": "to"
+ },
+ {
+   "id": 424,
+   "type": "基礎",
+   "question": "The hotel is located (   ) the National History Museum and the Hotel Classic in the historic district.",
+   "options": ["from", "between", "into", "among"],
+   "answer": "between"
+ },
+ {
+   "id": 425,
+   "type": "基礎",
+   "question": "It was difficult to settle the dispute because disagreement was evident (   ) the workers.",
+   "options": ["among", "beyond", "inside", "within"],
+   "answer": "among"
+ },
+ {
+   "id": 426,
+   "type": "基礎",
+   "question": "Is there a basement (   ) the first floor?",
+   "options": ["down", "bottom", "lower", "below"],
+   "answer": "below"
+ },
+ {
+   "id": 427,
+   "type": "基礎",
+   "question": "People (   ) 20 are not allowed to drink alcohol.",
+   "options": ["within", "above", "under", "for"],
+   "answer": "under"
+ },
+ {
+   "id": 428,
+   "type": "基礎",
+   "question": "Let’s talk (   ) a cup of coffee, shall we?",
+   "options": ["over", "on", "in", "at"],
+   "answer": "over"
+ },
+ {
+   "id": 429,
+   "type": "基礎",
+   "question": "My stolen bicycle was destroyed (   ) recognition.",
+   "options": ["above", "below", "beyond", "over"],
+   "answer": "beyond"
+ },
+ {
+   "id": 430,
+   "type": "基礎",
+   "question": "I forgot my pen. Can you lend me something to write (   )?",
+   "options": ["by", "down", "on", "with"],
+   "answer": "with"
+ },
+ {
+   "id": 431,
+   "type": "基礎",
+   "question": "Could you send this book (   ) to London?",
+   "options": ["with the airmail", "with airmail", "by the airmail", "by airmail"],
+   "answer": "by airmail"
+ },
+ {
+   "id": 432,
+   "type": "基礎",
+   "question": "You’d better not talk about such a thing (   ) the telephone.",
+   "options": ["by", "in", "of", "on"],
+   "answer": "on"
+ },
+ {
+   "id": 433,
+   "type": "基礎",
+   "question": "They went to the museum (   ) their car. = They drove their car to the museum.",
+   "options": ["with", "in", "on", "by"],
+   "answer": "in"
+ },
+ {
+   "id": 434,
+   "type": "基礎",
+   "question": "These skills are (   ) unless you can apply them in your real life.",
+   "options": ["of no use", "in advance", "at a loss", "on and off"],
+   "answer": "of no use"
+ },
+ {
+   "id": 435,
+   "type": "基礎",
+   "question": "The girl regarded the robot (   ) curiosity.",
+   "options": ["as", "into", "toward", "with"],
+   "answer": "with"
+ },
+ {
+   "id": 436,
+   "type": "基礎",
+   "question": "Unfortunately, Jane missed the train (   ) two minutes.",
+   "options": ["in", "for", "by", "off"],
+   "answer": "by"
+ },
+ {
+   "id": 437,
+   "type": "基礎",
+   "question": "Are you (   ) or against the plan?",
+   "options": ["below", "beyond", "for", "forward"],
+   "answer": "for"
+ },
+ {
+   "id": 438,
+   "type": "基礎",
+   "question": "Lawyers can charge their clients (   ) the hour, or they can negotiate a set fee for the entire project.",
+   "options": ["by", "for", "during", "on"],
+   "answer": "by"
+ },
+ {
+   "id": 439,
+   "type": "基礎",
+   "question": "A stranger seized (   ) wrist.",
+   "options": ["by her", "her by the", "her in the", "on her"],
+   "answer": "her by the"
+ },
+ {
+   "id": 440,
+   "type": "基礎",
+   "question": "The girl is very mature (   ) her age.",
+   "options": ["against", "for", "to", "with"],
+   "answer": "for"
+ },
+ {
+   "id": 441,
+   "type": "基礎",
+   "question": "Be it ever so humble, there’s no place (   ) home.",
+   "options": ["for", "as", "like", "unless"],
+   "answer": "like"
+ },
+ {
+   "id": 442,
+   "type": "基礎",
+   "question": "May I have your advice (   ) how to contact them?",
+   "options": ["at", "for", "on", "with"],
+   "answer": "on"
+ },
+ {
+   "id": 443,
+   "type": "基礎",
+   "question": "(   ) her calm appearance during the interview, she was actually really worried.",
+   "options": ["Although", "But for", "Despite", "However"],
+   "answer": "Despite"
+ },
+ {
+   "id": 444,
+   "type": "基礎",
+   "question": "She looked most charming (   ) her red dress.",
+   "options": ["on", "in", "by", "for"],
+   "answer": "in"
+ },
+ {
+   "id": 445,
+   "type": "基礎",
+   "question": "I like all the subjects (   ) geography.",
+   "options": ["except", "exclude", "however", "other"],
+   "answer": "except"
+ },
+ {
+   "id": 446,
+   "type": "基礎",
+   "question": "It is not polite to talk (   ) your mouth full.",
+   "options": ["in", "on", "over", "with"],
+   "answer": "with"
+ },
+ {
+   "id": 447,
+   "type": "応用",
+   "question": "彼女が達成したことはとても重要だった。(W ) she attained was (o ) great importance.",
+   "answer": "What / of"
+ },
+ {
+   "id": 448,
+   "type": "応用",
+   "question": "あなたは彼の提案に賛成ですか。それとも反対ですか。 Are you for or (   ) his proposal?",
+   "options": ["against", "for", "with", "to"],
+   "answer": "against"
+ },
+ {
+   "id": 449,
+   "type": "応用",
+   "question": "If Tom ①should decide to participate ②in the project ③nevertheless these difficulties, please give him ④my best regards.",
+   "answer": "3をdespiteに直す"
+ },
+ {
+   "id": 450,
+   "type": "応用",
+   "question": "私の兄は日本人の割には、かなり背が高い。",
+   "answer": "My brother is quite tall for a Japanese."
+ },
+ {
+   "id": 451,
+   "type": "応用",
+   "question": "Mutual exchange between different societies and cultures has increased to the extent that we tend to feel as if we were living in one global village.",
+   "answer": "異なる社会と文化の間の相互交流は、私たちがまるで1つの地球村に住んでいるかのように感じてしまうほどに増大している。"
+ }
+]

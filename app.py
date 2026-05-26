@@ -20,9 +20,14 @@ if 'questions' not in st.session_state:
     st.session_state.questions = []
 if 'current_index' not in st.session_state:
     st.session_state.current_index = 0
-# ★間違えた問題を記録するリストを追加
 if 'mistakes' not in st.session_state:
     st.session_state.mistakes = []
+    
+# ★追加：回答フェーズか、結果確認フェーズかを判定する記憶
+if 'answered' not in st.session_state:
+    st.session_state.answered = False
+if 'is_correct' not in st.session_state:
+    st.session_state.is_correct = False
 
 # --- 画面の表示 ---
 
@@ -35,6 +40,7 @@ if st.session_state.page == 'home':
         st.session_state.questions = [q for q in all_questions if q.get('type') == '基礎']
         random.shuffle(st.session_state.questions)
         st.session_state.current_index = 0
+        st.session_state.answered = False # クイズ開始時に状態をリセット
         st.session_state.page = 'quiz'
         st.rerun()
 
@@ -42,6 +48,7 @@ if st.session_state.page == 'home':
         st.session_state.questions = [q for q in all_questions if q.get('type') == '応用']
         random.shuffle(st.session_state.questions)
         st.session_state.current_index = 0
+        st.session_state.answered = False # クイズ開始時に状態をリセット
         st.session_state.page = 'quiz'
         st.rerun()
         
@@ -49,18 +56,18 @@ if st.session_state.page == 'home':
     st.subheader("復習")
     
     mistakes_count = len(st.session_state.mistakes)
-
-    # ★ここを追加：間違えた問題がある場合、そのIDを「問題〇, 問題〇」の形で表示する
     if mistakes_count > 0:
-        # リストの内包表記という技を使って、IDを取り出して文字を作ります
         mistake_ids = [f"問題{q['id']}" for q in st.session_state.mistakes]
-        # st.infoを使って、青い枠でわかりやすく表示します
         st.info(f"📝 現在間違えている問題: {', '.join(mistake_ids)}")
     
-    # ★間違えた問題ボタン
     if st.button(f"間違えた問題をやり直す ({mistakes_count}問)", disabled=(mistakes_count == 0)):
-        # 間違えた問題のリストをクイズのキューにセット
         st.session_state.questions = st.session_state.mistakes.copy()
+        random.shuffle(st.session_state.questions)
+        st.session_state.current_index = 0
+        st.session_state.answered = False # クイズ開始時に状態をリセット
+        st.session_state.mistakes = []
+        st.session_state.page = 'quiz'
+        st.rerun()
 
 # 【2. クイズ画面】
 elif st.session_state.page == 'quiz':
@@ -76,35 +83,38 @@ elif st.session_state.page == 'quiz':
         q = st.session_state.questions[current]
         
         st.progress((current) / total)
-        # ★右側に「（問題〇）」と追加で表示するようにしました
-        st.write(f"**第 {current + 1} 問 / {total} 問** （問題{q['id']}）")
+        st.write(f"**第 {current + 1} 問 / {total} 問**")
         st.subheader(q['question'])
 
-        # ★判定処理（正解・不正解時の動きをまとめました）
-        def check_answer(is_correct):
-            if is_correct:
+        # パターンA：まだ回答していない時の画面
+        if not st.session_state.answered:
+            if "options" in q:
+                user_choice = st.radio("選択してください:", q['options'], index=None)
+                if st.button("回答する", disabled=(user_choice is None)):
+                    st.session_state.answered = True # 回答済みにする
+                    st.session_state.is_correct = (user_choice == q['answer'])
+                    st.rerun() # 画面をリロード
+            else:
+                user_text = st.text_input("答えを入力してください:")
+                if st.button("回答する", disabled=(user_text == "")):
+                    st.session_state.answered = True # 回答済みにする
+                    st.session_state.is_correct = (user_text.strip().lower() == q['answer'].lower())
+                    st.rerun() # 画面をリロード
+
+        # パターンB：回答した後の画面（結果と「次へ」ボタンを表示）
+        else:
+            if st.session_state.is_correct:
                 st.success("⭕ 正解！")
             else:
-                st.error(f"❌ 不正解... 正解は: {q['answer']}")
-                # 不正解だった場合、間違いリストに追加（重複防止つき）
+                st.error(f"❌ 不正解... 正解は: {q['answer']} （問題{q['id']}）")
                 if q not in st.session_state.mistakes:
                     st.session_state.mistakes.append(q)
-            
-            st.session_state.current_index += 1
-            import time
-            time.sleep(1.2) # 少し結果を見せてから次へ
-            st.rerun()
 
-        # 選択肢がある場合
-        if "options" in q:
-            user_choice = st.radio("選択してください:", q['options'], index=None)
-            if st.button("回答する", disabled=(user_choice is None)):
-                check_answer(user_choice == q['answer'])
-        # 記述式の場合
-        else:
-            user_text = st.text_input("答えを入力してください:")
-            if st.button("回答する", disabled=(user_text == "")):
-                check_answer(user_text.strip().lower() == q['answer'].lower())
+            # ★エラーの原因になっていた部分（コロンを追加しています）
+            if st.button("次へ", type="primary"):
+                st.session_state.answered = False # 状態を「未回答」に戻す
+                st.session_state.current_index += 1 # 次の問題へ
+                st.rerun()
         
         st.divider()
         if st.button("中断してホームに戻る"):

@@ -13,6 +13,29 @@ def load_all_questions():
 
 all_questions = load_all_questions()
 
+# --- ★追加：URLと記憶の同期（セーブ機能） ---
+# アプリ起動時、URLに mistakes=1,5,10 のような記録があれば読み込む
+if 'mistakes' not in st.session_state:
+    url_mistakes = st.query_params.get("mistakes", "")
+    if url_mistakes:
+        # URLの "1,5,10" という文字を整数のリスト [1, 5, 10] に変換
+        mistake_ids = [int(x) for x in url_mistakes.split(",")]
+        # 全問題データの中から、IDが一致するものを探し出してリストにする
+        st.session_state.mistakes = [q for q in all_questions if q['id'] in mistake_ids]
+    else:
+        st.session_state.mistakes = []
+
+# セーブを実行する関数（URLを更新する）
+def save_to_url():
+    if st.session_state.mistakes:
+        # 間違えた問題のIDを取り出して "1,5,10" のような文字にする
+        m_ids = [str(q['id']) for q in st.session_state.mistakes]
+        st.query_params["mistakes"] = ",".join(m_ids)
+    else:
+        # 間違えた問題が0になったらURLも綺麗にする
+        if "mistakes" in st.query_params:
+            del st.query_params["mistakes"]
+
 # --- セッション状態（記憶）の初期化 ---
 if 'page' not in st.session_state:
     st.session_state.page = 'home'
@@ -20,10 +43,6 @@ if 'questions' not in st.session_state:
     st.session_state.questions = []
 if 'current_index' not in st.session_state:
     st.session_state.current_index = 0
-if 'mistakes' not in st.session_state:
-    st.session_state.mistakes = []
-    
-# ★追加：回答フェーズか、結果確認フェーズかを判定する記憶
 if 'answered' not in st.session_state:
     st.session_state.answered = False
 if 'is_correct' not in st.session_state:
@@ -40,7 +59,7 @@ if st.session_state.page == 'home':
         st.session_state.questions = [q for q in all_questions if q.get('type') == '基礎']
         random.shuffle(st.session_state.questions)
         st.session_state.current_index = 0
-        st.session_state.answered = False # クイズ開始時に状態をリセット
+        st.session_state.answered = False
         st.session_state.page = 'quiz'
         st.rerun()
 
@@ -48,7 +67,7 @@ if st.session_state.page == 'home':
         st.session_state.questions = [q for q in all_questions if q.get('type') == '応用']
         random.shuffle(st.session_state.questions)
         st.session_state.current_index = 0
-        st.session_state.answered = False # クイズ開始時に状態をリセット
+        st.session_state.answered = False
         st.session_state.page = 'quiz'
         st.rerun()
         
@@ -64,8 +83,9 @@ if st.session_state.page == 'home':
         st.session_state.questions = st.session_state.mistakes.copy()
         random.shuffle(st.session_state.questions)
         st.session_state.current_index = 0
-        st.session_state.answered = False # クイズ開始時に状態をリセット
+        st.session_state.answered = False
         st.session_state.mistakes = []
+        save_to_url() # ★やり直す時はURLからも記録を消す
         st.session_state.page = 'quiz'
         st.rerun()
 
@@ -91,15 +111,15 @@ elif st.session_state.page == 'quiz':
             if "options" in q:
                 user_choice = st.radio("選択してください:", q['options'], index=None)
                 if st.button("回答する", disabled=(user_choice is None)):
-                    st.session_state.answered = True # 回答済みにする
+                    st.session_state.answered = True
                     st.session_state.is_correct = (user_choice == q['answer'])
-                    st.rerun() # 画面をリロード
+                    st.rerun()
             else:
                 user_text = st.text_input("答えを入力してください:")
                 if st.button("回答する", disabled=(user_text == "")):
-                    st.session_state.answered = True # 回答済みにする
+                    st.session_state.answered = True
                     st.session_state.is_correct = (user_text.strip().lower() == q['answer'].lower())
-                    st.rerun() # 画面をリロード
+                    st.rerun()
 
         # パターンB：回答した後の画面（結果と「次へ」ボタンを表示）
         else:
@@ -109,11 +129,11 @@ elif st.session_state.page == 'quiz':
                 st.error(f"❌ 不正解... 正解は: {q['answer']} （問題{q['id']}）")
                 if q not in st.session_state.mistakes:
                     st.session_state.mistakes.append(q)
+                    save_to_url() # ★間違えたらすぐにURLにセーブ！
 
-            # ★エラーの原因になっていた部分（コロンを追加しています）
             if st.button("次へ", type="primary"):
-                st.session_state.answered = False # 状態を「未回答」に戻す
-                st.session_state.current_index += 1 # 次の問題へ
+                st.session_state.answered = False
+                st.session_state.current_index += 1
                 st.rerun()
         
         st.divider()

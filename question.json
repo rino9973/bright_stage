@@ -1073,8 +1073,8 @@
     "id": 157,
     "type": "基礎",
     "question": "A : How often do you visit your grandparents?\nB : I try to see them (   ) possible.",
-    "options": ["as often as", "as possible as", "as much as", "as well as"],
-    "answer": "as often as"
+    "options": ["as much as", "even if", "more than", "the most"],
+    "answer": "as much as"
   },
   {
     "id": 158,
@@ -1815,7 +1815,7 @@
     "type": "基礎",
     "question": "He leads (   ) life to have much time for relaxation.",
     "options": ["a so busy", "so busy a", "a too busy", "too busy a"],
-    "answer": "so busy a"
+    "answer": "too busy a"
   },
   {
     "id": 266,

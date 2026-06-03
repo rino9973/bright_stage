@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import os
+import random
 
 # --- データの読み込み ---
 @st.cache_data
@@ -60,7 +61,7 @@ if 'answered' not in st.session_state:
 if 'is_correct' not in st.session_state:
     st.session_state.is_correct = False
 
-# ★追加：コース変更の確認ポップアップ（ダイアログ）
+# ★コース変更の確認ポップアップ（ダイアログ）
 @st.dialog("⚠️ コース変更の確認")
 def confirm_course_change(cat):
     st.write(f"現在、別の問題が進行中です。\n新しく「**{cat}**」を始めると、現在の進捗はリセットされてしまいますが、本当によろしいですか？")
@@ -72,6 +73,7 @@ def confirm_course_change(cat):
     with col2:
         if st.button("新しく始める", type="primary", use_container_width=True):
             st.session_state.questions = [q for q in all_questions if q.get('type') == cat]
+            random.shuffle(st.session_state.questions) # ★追加：問題をシャッフルする
             st.session_state.current_index = 0
             st.session_state.answered = False
             save_to_url()
@@ -94,19 +96,18 @@ if st.session_state.page == 'home':
     
     st.write("新しくコースを選択して始める場合はこちら:")
     
-    # カテゴリ一覧をJSONから動的に取得
     categories = []
     for q in all_questions:
         if q.get('type') not in categories:
             categories.append(q.get('type', '未分類'))
     
-    # ★変更：ボタンを押したときに進捗があれば確認ポップアップを出す
     for cat in categories:
         if st.button(f"「{cat}」を解く", use_container_width=True, key=f"btn_{cat}"):
             if has_progress:
-                confirm_course_change(cat)
+                confirm_course_change(cat) # 進行中ならポップアップを出す
             else:
                 st.session_state.questions = [q for q in all_questions if q.get('type') == cat]
+                random.shuffle(st.session_state.questions) # ★追加：問題をシャッフルする
                 st.session_state.current_index = 0
                 st.session_state.answered = False
                 save_to_url()
@@ -122,8 +123,8 @@ if st.session_state.page == 'home':
         st.info(f"📝 現在間違えている問題: {', '.join(mistake_ids)}")
     
     if st.button(f"間違えた問題をやり直す ({mistakes_count}問)", disabled=(mistakes_count == 0), use_container_width=True):
-        # 復習モードでも確認を出したい場合は、ここにも同様の処理を追加できます（今回はそのまま）
         st.session_state.questions = st.session_state.mistakes.copy()
+        random.shuffle(st.session_state.questions) # ★追加：復習の時もシャッフルする
         st.session_state.current_index = 0
         st.session_state.answered = False
         st.session_state.mistakes = []
